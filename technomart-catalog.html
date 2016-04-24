@@ -2,12 +2,12 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title> Техномарт </title>
+    <title> Техномарт-каталог </title>
     <meta name="keywords" content="Техномарт, техника, магазин, ремонт, инструмент">
     <meta name="description" content="Инструменты для ремонта">
   </head>
   <body>
-    <header>
+  	<header>
       <div>
         <div class="label">Техномарт</div>
         <ul>
@@ -32,18 +32,20 @@
       <div class="info">
         <p> Интернет-магазин строительных материалов и инструментов для ремонта
         </p>
-        </div>
+      </div>
         <div>
           <p class="phone">+7(812)555-05-55</p> 
       	  <p>г. Санкт-Петербург, ул.Б. Конюшенная, д.19/8 </p>
         </div>
         <div>
-          <a class="login" href="#">Вход</a>
-    	  <a class="register" href="#">Регистрация</a>	
+          <ul>
+          	<li><a href="#" class="my-account">Равшан Джамшутович</a></li>
+          	<li><a class="order" href="#">Мои заказы</a></li>
+          	<li><a class="account" href="#">Личный кабинет</a></li>
+          </ul>
         </div>    	
       </div>
-    </div>
-    <header class="">
+      <header class="">
       <div class="container">
         <nav class="main-navigation">
           <ul>
@@ -72,38 +74,92 @@
         </nav>
       </div>  
     </header>
+    <div>
+    	<nav>
+    		<ul>
+    			<li><a href="/technomart_index"><img src="#" alt="на главную"></a></li>
+    			<li><a href="#">Каталог</a></li>
+    			<li><a href="#">Инструмент</a></li>
+    			<li><a href="">Перфораторы</a></li>
+    		</ul>
+    	</nav>
+    </div>
+    <div>
+      <h2>Перфораторы</h2> 	
+    </div>
+    <div class="left-column">
+      <div class="filter">
+        <h3>Фильтры:</h3>	
       </div>
       <div>
-      	<div class="materials">
-      	  <p>Материалы</p>
-      		<a href="#" class="btn material-btn">на любой вкус</a>
-      	</div>
-      	<div class="tools">
-      		<p>Инструменты</p>
-      		<a href="#" class="btn tools-btn">на все случаи</a>
-      	</div>
-      	<div class="tech">
-      		<p>Техника</p>
-      		<a href="#" class="btn tech-btn">для стройки</a>
-      	</div>
-      	<div class="sale">
-      		<p>Скидки</p>
-      		<a href="#" class="btn sale-btn">на 350 товаров</a>
-      	</div>
-      	<div class="delivery">
-      		<p>Доставка</p>
-      		<a href="#" class="btn deliver-btn">бесплатно</a>
-      	</div>
-      	<div class="catalog">
-      		<a href="#" class="btn catalog-btn">октрыть каталог</a>
-      	</div>
+      	<p>Цена:</p>
       </div>
-      <div class="popular">
-      	<h2>Популярные товары:</h2>
-        <a href="#" class="btn items-btn">Все популярные товары</a>
+      <div class="range-filter">
+            <div class="range-controls">
+                <div class="scale"></div>
+                <div class="toggle min-toggle"></div>
+                <div class="toggle max-toggle"></div>
+            </div>
+            <div class="price-controls">
+                от <input class="min-price" type="text" value="0">
+                до <input class="max-price" type="text" value="30 000">
+            </div>
+        </div>
+        <hr>
+        <div class="producer-filter">
+          <form action="#" method="post">
+            <p>Производители:</p>	
+            <ul>
+          	  <li>
+          	    <input type="checkbox" name="bosch" id="bosch-field" checked>
+                <label for="bosch-field">BOSCH</label>	
+          	  </li>
+          	  <li>
+          	    <input type="checkbox" name="interscol" id="interscol-field">
+                <label for="interscol-field">ИНТЕРСКОЛ</label>	
+          	  </li>
+          	  <li>
+          	    <input type="checkbox" name="makita" id="makita-field" checked>
+                <label for="makita-field">MAKITA</label>	
+          	  </li>
+          	  <li>
+          	    <input type="checkbox" name="dewalt" id="dewalt-field">
+                <label for="dewalt-field">DEWALT</label>	
+          	  </li>
+          	  <li>
+          	    <input type="checkbox" name="hitachi" id="hitachi-field">
+                <label for="hitachi-field">HITACHI</label>	
+          	  </li>
+            </ul>
+          </form>  
+        </div>
+        <div>
+          <form action="#" method="post">
+            <p>Питание:</p>
+            <label>
+              <input type="radio" name="question-one" value="accumulator" checked>
+                Аккумуляторные
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="question-one" value="AC-battery">
+                Сетевые
+            </label>
+            <br>
+            <input type="submit" value="Показать">
+          </form> 	
+        </div>
+    </div>
+    <div class="">
+      <div class="sorting">
+      	<div>Сортировка:</div>
+      	<div>по цене</div>
+      	<div>по типу</div>
+      	<div>по функционалу</div>
+      	<div></div>
       </div>
       <div>
-        <article>
+      	<article>
       	  <img src="#">
       	  <p>Перфоратор BOSCH BFG 9000</p>
       	  <p class="price">32500 р.</p>
@@ -127,76 +183,21 @@
       	  <a href="#">12500 Р.</a>
         </article>
       </div>
-      <div class="popular">
-      	<h2>Популярные производители:</h2>
-      	<a href="#" class="btn producer-btn">Все производители</a>
-      </div>    
       <div>
-      	<div class="producer">
-      	  <a href="#">
-      	    <img src="#" alt="BOSCH">
-      	  </a>  
-      	</div>
-      	<div class="producer">
-      	  <a href="#">
-      	    <img src="#" alt="Makita">
-      	  </a>  
-      	</div>
-      	<div class="producer">
-      	  <a href="#">
-      	    <img src="#" alt="DeWALT">
-      	  </a>  
-      	</div>
-      	<div class="producer">
-      	  <a href="#">
-      	    <img src="#" alt="ИНТЕРСКОЛ">
-      	  </a>  
-      	</div>
-      	<div class="producer">
-      	  <a href="#">
-      	    <img src="#" alt="HITACHI">
-      	  </a>  
-      	</div>
-      	<div class="producer">
-      	  <a href="#">
-      	    <img src="#" alt="LG">
-      	  </a>  
-      	</div>
-      	<div class="producer">
-      	  <a href="#">
-      	    <img src="#" alt="AEG">
-      	  </a>  
-      	</div>
-      	<div class="producer">
-      	  <a href="#">
-      	    <img src="#" alt="metabo">
-      	  </a>  
-      	</div>
-      </div>
-      /*<div>здесь будет слайдер с сервисами</div>*/
-      <div>
-      	<div class="about-company">
-      	  <h2>Компания "Техномарт"</h2>
-      	  <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>	
-      	  <p>Мы можем доставить ваш товар в самые отдаленные точки России!</p>
-      	  <p>
-      	  	Техномарт работает со многими транспортными компаниями:
-      	  	<ul>
-      	  	  <li class="red-line">Деловые линии</li>
-      	  	  <li class="red-line">Автотейдинг</li>
-      	  	  <li class="red-line">ЖелДорЭкспедиция</li>
-      	  	</ul>
-      	  </p>
-      	  <a href="#" class="btn company-btn">Подробнее о компании</a>
-      	</div>
-      	<div class="contacts">
-      	  <h2>Контакты</h2>
-          <p>Вы можете забрать товары сами, заехав в наш офис</p>
-          <img src="#" alt="map">
-          <a href="#" class="btn contacts-btn">Заблудились напишите нам!</a>
-      	</div>
-      </div>
-      <footer class="main-footer">
+      	<ul>
+      	  <li><a href="#" class="page">1</a></li>
+      	  <li><a href="#" class="page">2</a></li>
+      	  <li><a href="#" class="page">3</a></li>
+      	  <li><a href="#" class="page">Следующая</a></li>	
+      	</ul>
+      </div>    	
+    </div>
+    <div class="info-about-drill">
+      <h2>Пара слов о перфораторах</h2>
+      <p>Перфоратор - универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.</p>
+      <p>Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В ассортиментном ряду есть выбор "трехрежимников": в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>
+    </div>
+     <footer class="main-footer">
         <div class="container1">
           <div class="label">Техномарт</div>
           <section class="footer-contacts">
@@ -258,6 +259,6 @@
             <a href="https://htmlacademy.ru" class="">htmlacademy.ru</a>         	
           </section>	
         </div>      	
-      </footer>
-    </body>
+      </footer>      
+  </body>
 </html>  
