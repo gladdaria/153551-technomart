@@ -1,0 +1,19 @@
+h1 {
+	font-family: Cuprum;
+	font-size: 36px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-family: Cuprum;
+	font-size: 30px;
+	font-weght: normal;
+	text-transform: uppercase;
+}
+
+p {
+	font: Cuprum;
+    font-size: 16px;
+    font-style: italic;
+}
