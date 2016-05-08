@@ -1,19 +1,26 @@
 h1 {
-	font-family: Cuprum;
+	font-family: Cuprum, Arial, sans-serif;
 	font-size: 36px;
+	line-height: 1.8em;
 	font-weight: bold;
 	text-transform: uppercase;
 }
 
 h2 {
-	font-family: Cuprum;
+	font-family: Cuprum, Arial, sans-serif;
 	font-size: 30px;
-	font-weght: normal;
+	line-height: 1.8em;
+	font-weight: normal;
 	text-transform: uppercase;
 }
 
 p {
-	font: Cuprum;
+	font: Cuprum, Arial, sans-serif;
     font-size: 16px;
-    font-style: italic;
+    line-height: 1.4em;
+}
+
+span {
+	font-style: italic;
+    color: #ef6973;
 }
