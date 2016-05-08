@@ -1,5 +1,8 @@
-h1 {
+body {
 	font-family: Cuprum, Arial, sans-serif;
+}
+
+h1 {
 	font-size: 36px;
 	line-height: 1.8em;
 	font-weight: bold;
@@ -7,7 +10,6 @@ h1 {
 }
 
 h2 {
-	font-family: Cuprum, Arial, sans-serif;
 	font-size: 30px;
 	line-height: 1.8em;
 	font-weight: normal;
@@ -15,12 +17,162 @@ h2 {
 }
 
 p {
-	font: Cuprum, Arial, sans-serif;
-    font-size: 16px;
+	font-size: 16px;
     line-height: 1.4em;
 }
 
 span {
 	font-style: italic;
     color: #ef6973;
+}
+
+header {
+	background-color: #293449;
+}
+
+.main-header {
+	height: 50px;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.label {
+	width: 225px;
+	height: 50px;
+	margin-right: 5px;
+	float: left;
+	background-color: #ef6973;
+	color:  #f1f2f4;
+	font-size: 24px
+	line-height: 1.5em;
+	text-transform: uppercase;
+	text-align: center;
+	box-shadow: 0 6px 4px -4px #b52933;
+}
+
+.purchase-block {
+    list-style: none;
+	margin: 0;
+	margin-right: 25px;
+	padding-left: 5px;
+
+}
+
+li, .purchase-block {
+    
+	display: inline-block;
+}
+
+a, li {
+	
+	text-decoration: none;
+}
+
+.bookmarks, .basket {
+	padding: 20px;
+	color:  #f1f2f4;
+}
+
+.order {
+	width: 150px;
+	height: 100%;
+	color:  #f1f2f4;
+	background-color: #63a63e;
+}
+
+.info-box {
+	clear: both;
+	background-color:  #f1f5f7;
+}
+
+.info {
+	width: 220px;
+	height: 160px;
+	float: left;
+	margin: 20px;
+
+}
+
+.adress-block {
+	float: left;
+	margin: 20px;
+	padding-right: 50px;
+	padding-left: 50px; 
+}
+
+.phone {
+	border: 1px solid white;
+	color: #e9292a;
+	font-size: 14px;
+	line-height: 1.5em;
+	text-align: center;
+
+}
+
+p, .adress-block {
+	font-size: 14px;
+}
+
+.user-block {
+	float: right;
+}
+
+.navigation {
+	height: 60px;
+	clear: both;
+	box-shadow: 0 6px 4px -4px #293449;
+}
+
+li .main-menu {
+	color: #e9292a;
+}
+
+
+.nav-menu {
+	width: 300px;
+	color: #f1f2f4;
+	margin: 10px;
+
+
+}
+
+.materials {
+	background-color: #f6b22d;
+	float: left;
+}
+
+.tools {
+	background-color: #4aafde;
+	float: left;
+}
+
+.tech {
+	background-color: #cc79d1;
+	float: right;
+}
+
+.sale {
+	background-color: #85d179;
+	float: right;
+}
+
+.delivery {
+	background-color: #f6b22d;
+	float: right;
+}
+
+footer {
+    min-height: 70px;
+    background-color: #293449;
+	color: #f1f2f4;
+
+}
+
+.main-footer {
+	background-color: #32425c;
+	color: #f1f2f4;
 }
