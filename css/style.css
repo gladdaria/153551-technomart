@@ -40,10 +40,17 @@ header {
     padding: 0 10px;
 }
 
+.main-info {
+	height: 275px;
+	background-color: #f1f5f7;
+	margin-bottom: 60px;
+
+}
+
 .label {
 	width: 225px;
 	height: 50px;
-	margin-right: 5px;
+	margin-right: 10px;
 	float: left;
 	background-color: #ef6973;
 	color:  #f1f2f4;
@@ -52,39 +59,38 @@ header {
 	text-transform: uppercase;
 	text-align: center;
 	box-shadow: 0 6px 4px -4px #b52933;
+	padding: 20px;
+	box-sizing: border-box;
 }
 
 .purchase-block {
-    list-style: none;
+	list-style: none;
 	margin: 0;
-	margin-right: 25px;
-	padding-left: 5px;
-
+	padding: 15px;
 }
 
-li, .purchase-block {
+ .purchase-block li {
     
 	display: inline-block;
 }
 
-a, li {
+ .purchase-block a {
 	
 	text-decoration: none;
 }
 
 .bookmarks, .basket {
-	padding: 20px;
 	color:  #f1f2f4;
-}
+	margin: 20px;
+}	
+
 
 .order {
-	width: 150px;
-	height: auto;
+	padding: 15px;
 	color:  #f1f2f4;
 	background-color: #63a63e;
-	padding: 20px;
-	box-sizing: border-box;
 	text-align: center;
+
 }
 
 .info-box {
@@ -108,20 +114,51 @@ a, li {
 }
 
 .phone {
+	height: 45px;
 	border: 1px solid white;
 	color: #e9292a;
-	font-size: 14px;
-	line-height: 1.5em;
+	font-size: 21px;
+	line-height: 1.2em;
 	text-align: center;
+	padding: 10px;
+	box-sizing: border-box;
 
 }
 
-p, .adress-block {
+.adress-block p {
 	font-size: 14px;
 }
 
+
+ 
 .user-block {
-	float: right;
+	display: inline-block;
+	padding: 20px;
+	margin: 20px;
+}
+
+.user-block a {
+	text-decoration: none;
+	color: #444444;
+}
+
+
+.login {
+	width: 120px;
+	margin-right: 10px;
+	padding: 20px;
+	background-color: #ffffff;
+	text-align: center;
+	
+}
+
+.register {
+	width: 150px;
+	margin-right: 0;
+	padding: 20px;
+	background-color: #ffffff;
+	text-align: center;
+	
 }
 
 .navigation {
@@ -130,42 +167,64 @@ p, .adress-block {
 	box-shadow: 0 6px 4px -4px #293449;
 }
 
-li .main-menu {
-	color: #e9292a;
+.main-menu li {
+	display: inline-block;
+	list-style: none;
+	padding-top: 20px;
 }
 
+.main-menu a {
+	text-decoration: none;
+	color: #f1f2f4;
+	padding: 20px;
+}
 
 .nav-menu {
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 20px;
 	width: 300px;
 	color: #f1f2f4;
-	margin: 10px;
-
-
+	
 }
 
 .materials {
 	background-color: #f6b22d;
-	float: left;
+	
 }
 
 .tools {
 	background-color: #4aafde;
-	float: left;
+	
 }
 
 .tech {
 	background-color: #cc79d1;
-	float: right;
+	
+	margin-right: 0;
 }
 
 .sale {
 	background-color: #85d179;
-	float: right;
+	
 }
 
 .delivery {
 	background-color: #f6b22d;
-	float: right;
+	
+}
+
+.nav-menu img {
+	margin-left: 35px;
+	margin-bottom: 30px;
+
+}
+
+.tools-btn {
+	min-height: 40px;
+	width: 140px;
+	margin-left: 25px;
+	margin-bottom: 20px;
 }
 
 footer {
@@ -178,4 +237,120 @@ footer {
 .main-footer {
 	background-color: #32425c;
 	color: #f1f2f4;
+}
+
+.popular {
+	height: 95px;
+	background-color: #f1f5f7;
+	text-align: left;
+	padding: 25px;
+	box-sizing: border-box;
+}
+
+.btn {
+	background-color: #ee3643;
+	color: #ffffff;
+}
+
+
+.items-btn {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.producer {
+	width: 220px;
+	height: 150px;
+	float: left;
+	border: 1px solid #e7e7e7;
+}
+
+.catalog {
+	width: 620px;
+    height: 266px;
+    border: 1px solid #888;
+    position: relative;
+    text-align: center;
+}
+ .promo-slider input {
+ 	display: none;
+}
+
+ .promo-slider  input + label {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 8px;
+    background: rgba(90, 90, 90, 0.8);
+    border: 2px solid rgba(190, 190, 190, 0.8);
+    cursor: pointer;
+    z-index: 100;
+    position: relative;
+    margin-right: 4px;
+    top: 90%;
+    transition: background 0.8s ease-out 0s;
+}
+
+ .promo-slider  input + label:hover {
+    background:  #ee3643;
+}
+
+ .promo-slider  input:checked + label {
+    background: #ee3643;
+}
+
+ .promo-slider  div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0.9s;
+}
+
+ .promo-slider  input:checked + label + div {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0s;
+}
+
+.promo-slider  div  h1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: left;
+   
+}
+
+ .promo-slider  div  p {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: left;
+   
+}
+
+.promo-slider  div  a {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: left;
+
+   
+}
+
+.catalog-btn {
+	text-decoration: none;
+	padding: 10px 20px 10px 20px;
+	width: 200px;
+	height: 40px;
+	box-sizing: border-box;
+	text-transform: uppercase;
+	font-size: 16px;
 }
