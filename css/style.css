@@ -26,6 +26,12 @@ span {
     color: #ef6973;
 }
 
+.layout-positioner:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 header {
 	background-color: #293449;
 }
@@ -94,23 +100,24 @@ header {
 }
 
 .info-box {
-	clear: both;
 	background-color:  #f1f5f7;
 }
 
 .info {
 	width: 220px;
 	height: 160px;
+	line-height: 23px;
 	float: left;
-	margin: 20px;
-
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 65px;
 }
 
 .adress-block {
 	float: left;
-	margin: 20px;
-	padding-right: 50px;
-	padding-left: 50px; 
+	margin-top: 50px;
+	margin-bottom: 65px;
+	margin-right: 65px;
 }
 
 .phone {
@@ -120,9 +127,8 @@ header {
 	font-size: 21px;
 	line-height: 1.2em;
 	text-align: center;
-	padding: 10px;
+	padding-top: 10px;
 	box-sizing: border-box;
-
 }
 
 .adress-block p {
@@ -131,35 +137,31 @@ header {
 
 
  
-.user-block {
-	display: inline-block;
-	padding: 20px;
-	margin: 20px;
-}
-
 .user-block a {
 	text-decoration: none;
 	color: #444444;
 }
 
 
-.login {
+.log-in  {
 	width: 120px;
+	min-height: 50px;
+	float: left;
+	margin-top: 45px;
 	margin-right: 10px;
-	padding: 20px;
+	margin-bottom: 70px;
 	background-color: #ffffff;
 	text-align: center;
-	
-}
+	padding-top: 18px;
+	box-sizing: border-box;
 
-.register {
-	width: 150px;
-	margin-right: 0;
-	padding: 20px;
-	background-color: #ffffff;
-	text-align: center;
 	
 }
+ .log-in :last-child {
+ 	margin-right: 0;
+ 	width: 150px;
+ }
+
 
 .navigation {
 	height: 60px;
@@ -176,7 +178,7 @@ header {
 .main-menu a {
 	text-decoration: none;
 	color: #f1f2f4;
-	padding: 20px;
+	padding: 0 20px 0 20px
 }
 
 .nav-menu {
@@ -240,12 +242,12 @@ footer {
 }
 
 .popular {
-	height: 95px;
+	height: 90px;
 	background-color: #f1f5f7;
 	text-align: left;
-	padding: 25px;
-	box-sizing: border-box;
+	line-height: 30px;
 }
+
 
 .btn {
 	background-color: #ee3643;
@@ -254,15 +256,11 @@ footer {
 
 
 .items-btn {
-	display: inline-block;
+	float: right;
 	vertical-align: top;
 }
 
-.producer {
-	width: 220px;
-	height: 150px;
-	float: left;
-	border: 1px solid #e7e7e7;
+
 }
 
 .catalog {
@@ -353,4 +351,112 @@ footer {
 	box-sizing: border-box;
 	text-transform: uppercase;
 	font-size: 16px;
+}
+
+.producer-catalog {
+	width: 960px;
+
+}
+.producer {
+	width: 220px;
+	min-height: 140px;
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	vertical-align: top;
+	border: 1px solid #e7e7e7;
+
+}
+
+.producer:nth-child(4n) {
+	margin-right: 0;
+}
+
+.company-block {
+	width: 550px;
+	min-height: 540px;
+	margin:100px;
+	text-align: center;
+}
+
+.about-company {
+	float: left;
+}
+
+.contacts {
+	width: 300px;
+	float:left;
+	margin-right: 0;
+	line-height: 24px;
+
+}
+
+.contacts img {
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.contacts-btn {
+	display: block;
+	width: 300px;
+	font-size: 14px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.popular-items {
+	width: 220px;
+	min-height: 320px;
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	vertical-align: top;
+	border: 1px solid #e7e7e7;
+}
+
+.popular-items:last-child {
+	margin-right: 0px;
+}
+
+.main-footer {
+	list-style: none;
+	margin: 0;
+	padding: 15px;
+}
+
+ .main-footer li {
+    
+	display: inline-block;
+}
+
+ .main-footer a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.yellow-link a {
+	color: #f1c77e;
+}
+
+.feedback-block {
+	list-style: none;
+	margin: 0;
+	padding: 15px;
+}
+
+.feedback-block li {
+    
+	display: inline-block;
+}
+
+ .feedback-block a {
+	color: #ffffff;
+	text-decoration: none;
 }
