@@ -247,12 +247,15 @@ footer {
 }
 
 .popular {
-	height: 90px;
-	background-color: #f1f5f7;
+	
 	text-align: left;
 	line-height: 30px;
 }
 
+.popular h2 {
+	float: left;
+	margin:0;
+}
 
 .btn {
 	background-color: #ee3643;
@@ -373,6 +376,10 @@ footer {
 
 .producer:nth-child(4n) {
 	margin-right: 0;
+}
+
+.producer a {
+	vertical-align: middle;
 }
 
 .company-block {
