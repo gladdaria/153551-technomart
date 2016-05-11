@@ -54,12 +54,13 @@ header {
 }
 
 .logo {
+	width: 50%;
 	float: left;
-	margin-right: 20px;	
+		
 }
 
 .label {
-	
+	display: inline-block;
 	width: 225px;
 	height: 50px;
 	margin-right: 20px;
@@ -74,15 +75,18 @@ header {
 }
 
 .search {
-	
+	display: inline-block;
 	margin-top: 10px;
+	margin-right: 10px;
 	box-sizing: border-box;
 }
 
 .purchase {
+	width: 50%;
 	float: right;
 	margin-top: 10px;
 	box-sizing: border-box;
+	padding-left: 45px;
 }
   
 .purchase-block {
@@ -92,7 +96,7 @@ header {
 }
 
  .purchase-block li {
-    display: inline;
+    display: inline-block;
 	
 }
 
@@ -121,12 +125,14 @@ header {
 }
 
 .info {
-	width: 317px;
-	line-height: 23px;
+	width: 250px;
+	padding-left: 45px;
+	font-size: 14px;
 	float: left;
 }
 
 .adress-block {
+	width: 270px;
 	float: left;
 	
 }
@@ -141,11 +147,12 @@ header {
 }
 
 .adress-block p {
-	font-size: 14px;
+	font-size: 12px;
 }
 
 .user-block {
-	float: left;
+	width: 300px;
+	float: right;
 }
  
 .user-block a {
@@ -156,15 +163,19 @@ header {
 
 .log-in  {
 	width: 120px;
+	display: inline-block;
 	min-height: 50px;
 	background-color: #ffffff;
 	text-align: center;
 	box-sizing: border-box;
-
+	margin-right: 10px;
+    line-height: 50px;
+	
 	
 }
  .log-in :last-child {
  	width: 150px;
+ 	margin-right: 0;
  }
 
 
@@ -257,6 +268,7 @@ footer {
 }
 
 .popular h2 {
+	width: 60%;
 	float: left;
 	margin:0;
 }
@@ -355,14 +367,18 @@ footer {
    
 }
 
-.popular-btn {
+.popular-link {
+	width: 40%;
 	float: right;
+
+}
+
+.popular-btn {
 	text-decoration: none;
 	width: 200px;
 	box-sizing: border-box;
 	text-transform: uppercase;
 	font-size: 14px;
-	margin-right: 25px;
 
 }
 
@@ -388,19 +404,19 @@ footer {
 }
 
 .company-block {
-	width: 550px;
+	
 	min-height: 540px;
-	margin:100px;
-	text-align: center;
+	
 }
 
 .about-company {
+	width: 540px;
 	float: left;
 }
 
 .contacts {
 	width: 300px;
-	float:left;
+	float: right;
 	margin-right: 0;
 	line-height: 24px;
 
@@ -474,4 +490,13 @@ footer {
  .feedback-block a {
 	color: #ffffff;
 	text-decoration: none;
+}
+
+.producer a { 
+vertical-align: middle; 
+line-height: 140px; 
+} 
+.producer img { 
+vertical-align: middle; 
+display: inline-block; 
 }
