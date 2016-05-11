@@ -116,6 +116,7 @@ header {
 }
 
 .info-box {
+	padding-top: 50px;
 	background-color:  #f1f5f7;
 }
 
@@ -123,25 +124,19 @@ header {
 	width: 317px;
 	line-height: 23px;
 	float: left;
-	margin-top: 50px;
-	margin-right: 65px;
 }
 
 .adress-block {
 	float: left;
-	margin-top: 50px;
-	margin-bottom: 65px;
-	margin-right: 65px;
+	
 }
 
 .phone {
-	height: 45px;
 	border: 1px solid white;
 	color: #e9292a;
 	font-size: 21px;
 	line-height: 1.2em;
 	text-align: center;
-	padding-top: 10px;
 	box-sizing: border-box;
 }
 
@@ -149,7 +144,9 @@ header {
 	font-size: 14px;
 }
 
-
+.user-block {
+	float: left;
+}
  
 .user-block a {
 	text-decoration: none;
@@ -160,19 +157,13 @@ header {
 .log-in  {
 	width: 120px;
 	min-height: 50px;
-	float: left;
-	margin-top: 45px;
-	margin-right: 10px;
-	margin-bottom: 70px;
 	background-color: #ffffff;
 	text-align: center;
-	padding-top: 18px;
 	box-sizing: border-box;
 
 	
 }
  .log-in :last-child {
- 	margin-right: 0;
  	width: 150px;
  }
 
