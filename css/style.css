@@ -414,6 +414,8 @@ footer {
 	float: left;
 }
 
+
+
 .contacts {
 	width: 300px;
 	float: right;
@@ -459,17 +461,20 @@ footer {
 .main-footer {
 	list-style: none;
 	margin: 0;
-	padding: 15px;
+	
 }
 
  .main-footer li {
-    
-	display: inline-block;
+    display: inline-block;
 }
 
  .main-footer a {
 	color: #ffffff;
 	text-decoration: none;
+}
+
+.company-menu {
+	float: right;
 }
 
 .yellow-link a {
