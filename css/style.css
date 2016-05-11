@@ -92,7 +92,7 @@ header {
 }
 
  .purchase-block li {
-    
+    display: inline;
 	
 }
 
@@ -363,7 +363,7 @@ footer {
 	text-transform: uppercase;
 	font-size: 14px;
 	margin-right: 25px;
-	
+
 }
 
 
