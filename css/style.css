@@ -41,7 +41,7 @@ header {
 }
 
 .container {
-    width: 940px;
+    width: 960px;
     margin: 0 auto;
     padding: 0 10px;
 }
@@ -265,12 +265,15 @@ footer {
 .popular-catalog {
 	width: 940px;
 	background-color: #f7f3ec;
+	margin-bottom: 20px;
 }
 
 .popular h2 {
 	width: 60%;
 	float: left;
 	margin:0;
+	padding-top: 10px;
+	padding-left: 20px;
 }
 
 .btn {
@@ -282,9 +285,6 @@ footer {
 .items-btn {
 	float: right;
 	vertical-align: top;
-}
-
-
 }
 
 .catalog {
@@ -459,6 +459,7 @@ footer {
 }
 
 .main-footer {
+	min-height: 190px;
 	list-style: none;
 	margin: 0;
 	
@@ -471,10 +472,6 @@ footer {
  .main-footer a {
 	color: #ffffff;
 	text-decoration: none;
-}
-
-.company-menu {
-	float: right;
 }
 
 .yellow-link a {
@@ -505,3 +502,47 @@ line-height: 140px;
 vertical-align: middle; 
 display: inline-block; 
 }
+
+.logo-footer {
+	width: 380px;
+	float: left;
+}
+
+.footer-menu {
+	width: 550px;
+	float:left;
+	padding-top: 40px;
+}
+.company-menu {
+	margin: 0;
+	padding: 0
+}
+
+.company-menu li {
+	margin-right: 40px;
+}
+
+.company-menu li:last-child {
+	margin-right: 0px;
+}
+
+.items-menu {
+	padding: 0;
+	margin-left: 20px;
+	margin-top: 40px;
+}
+
+.items-menu li{
+    margin-right: 40px;
+}
+
+
+.items-menu li:last-child {
+	margin-right: 0;
+}
+
+.footer-contacts {
+	margin-top: 40px;
+}
+
+* {box-sizing: border-box;}
