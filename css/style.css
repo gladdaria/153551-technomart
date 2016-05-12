@@ -203,12 +203,15 @@ header {
 .main-menu a {
 	text-decoration: none;
 	color: #f1f2f4;
-	padding: 0 20px 0 20px
+	
+}
+
+.promo-menu {
+	padding-top: 60px;
 }
 
 .nav-menu {
 	display: inline-block;
-	margin-right: 20px;
 	margin-bottom: 20px;
 	width: 300px;
 	color: #f1f2f4;
@@ -217,7 +220,7 @@ header {
 
 .materials {
 	background-color: #f6b22d;
-	
+	margin-right: 15px;
 }
 
 .tools {
@@ -243,15 +246,15 @@ header {
 
 .nav-menu img {
 	margin-left: 35px;
-	margin-bottom: 30px;
+	
 
 }
 
 .tools-btn {
-	min-height: 40px;
 	width: 140px;
+	line-height: 18px;
 	margin-left: 25px;
-	margin-bottom: 20px;
+	
 }
 
 footer {
@@ -274,8 +277,8 @@ footer {
 .popular-catalog {
 	width: 940px;
 	background-color: #f7f3ec;
-	margin-bottom: 20px;
-box-sizing: border-box;
+	margin-bottom: 20px;   
+     box-sizing: border-box;
 }
 
 .popular h2 {
@@ -301,17 +304,23 @@ box-sizing: border-box;
 }
 
 .catalog {
-	width: 620px;
-    height: 266px;
-    border: 1px solid #888;
+	 border: 1px solid #888;
     position: relative;
     text-align: center;
 }
- .promo-slider input {
+
+.promo-slider {
+	width: 620px;
+    height: 266px;
+    position: relative;
+    text-align: left;
+}
+
+ .promo-slider > input {
  	display: none;
 }
 
- .promo-slider  input + label {
+ .promo-slider >  input + label {
     display: inline-block;
     width: 10px;
     height: 10px;
@@ -322,20 +331,20 @@ box-sizing: border-box;
     z-index: 100;
     position: relative;
     margin-right: 4px;
-    top: 90%;
+    top: 85%;
     transition: background 0.8s ease-out 0s;
 }
 
- .promo-slider  input + label:hover {
+ .promo-slider > input + label:hover {
     background:  #ee3643;
 }
 
- .promo-slider  input:checked + label {
+ .promo-slider > input:checked + label {
     background: #ee3643;
 }
 
- .promo-slider  div {
-    position: relative;
+ .promo-slider > div {
+    position: absolute;
     top: 0px;
     left: 0px;
     right: 0px;
@@ -346,13 +355,13 @@ box-sizing: border-box;
     transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0.9s;
 }
 
- .promo-slider  input:checked + label + div {
+ .promo-slider > input:checked + label + div {
     visibility: visible;
     opacity: 1;
     transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0s;
 }
 
-.promo-slider  div  h1 {
+.promo-slider > div > h1 {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -361,7 +370,7 @@ box-sizing: border-box;
    
 }
 
- .promo-slider  div  p {
+ .promo-slider > div > p {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -371,13 +380,27 @@ box-sizing: border-box;
 }
 
 .promo-slider  div  a {
+	width: 200px;
+	margin-left: 25px;
     position: absolute;
-    top: 0px;
+    top: 90%;
     left: 0px;
     right: 0px;
     text-align: left;
 
    
+}
+
+.offer {
+	width: 300px;
+	float: right;
+	margin-right: 0px;
+}
+
+.man-toys {
+	width:620px; 
+	float: left;
+	margin-right: 20px;
 }
 
 .popular-link {
@@ -609,3 +632,50 @@ display: inline-block;
 .popular-items {
 	font-size: 18px;
 }
+
+.props {
+	min-height: 525px;
+	background: url(img/lorry.png) no-repeat #f2f6f8;
+}
+
+.services {
+	width: 410px;
+	margin-bottom: 80px;
+}
+
+.services p{
+	font-size: 12px;
+}
+
+.props-list {
+	width: 240px;
+	float: left;
+	margin: 0;
+	padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+.props-list a {
+	line-height: 60px;
+    display: block;
+    margin-bottom: -1px;
+    color: #0088CC;
+    text-decoration: none;
+    border: 1px solid #E5E5E5;
+    padding-left: 20px;
+}
+
+.shipping {
+	width: 270px;
+	float: left;
+    margin-left: 85px;
+}
+
+.shipping p {
+	text-align: left;
+	font-size: 12px;
+    
+}
+
