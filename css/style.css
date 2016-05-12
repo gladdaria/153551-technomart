@@ -46,6 +46,8 @@ header {
     padding: 0 10px;
 }
 
+* {box-sizing: border-box;}
+
 .main-info {
 	height: 275px;
 	background-color: #f1f5f7;
@@ -84,7 +86,7 @@ header {
 .purchase {
 	width: 50%;
 	float: right;
-	margin-top: 10px;
+	padding-top: 15px;
 	box-sizing: border-box;
 	padding-left: 45px;
 }
@@ -112,7 +114,9 @@ header {
 
 
 .order {
-	
+	width: 150px;
+	padding: 15px 20px;
+	vertical-align: middle;
 	color:  #f1f2f4;
 	background-color: #63a63e;
 	text-align: center;
@@ -120,30 +124,33 @@ header {
 }
 
 .info-box {
+	min-height: 160px;
 	padding-top: 50px;
 	background-color:  #f1f5f7;
 }
 
 .info {
-	width: 250px;
+	width: 300px;
 	padding-left: 45px;
 	font-size: 14px;
 	float: left;
+
 }
 
 .adress-block {
 	width: 270px;
 	float: left;
-	
+	margin-left: 20px;
 }
 
 .phone {
-	border: 1px solid white;
+	border: 2px solid white;
 	color: #e9292a;
-	font-size: 21px;
-	line-height: 1.2em;
+	line-height: 18px;
 	text-align: center;
 	box-sizing: border-box;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .adress-block p {
@@ -151,8 +158,9 @@ header {
 }
 
 .user-block {
-	width: 300px;
+	width: 350px;
 	float: right;
+	padding-left: 70px;
 }
  
 .user-block a {
@@ -163,16 +171,17 @@ header {
 
 .log-in  {
 	width: 120px;
-	display: inline-block;
-	min-height: 50px;
+	display: inline-block;	
 	background-color: #ffffff;
+	line-height: 18px;
 	text-align: center;
 	box-sizing: border-box;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	margin-right: 10px;
-    line-height: 50px;
-	
-	
+	text-align: center;
 }
+
  .log-in :last-child {
  	width: 150px;
  	margin-right: 0;
@@ -266,19 +275,23 @@ footer {
 	width: 940px;
 	background-color: #f7f3ec;
 	margin-bottom: 20px;
+box-sizing: border-box;
 }
 
 .popular h2 {
 	width: 60%;
 	float: left;
 	margin:0;
-	padding-top: 10px;
+	line-height: 90px;
 	padding-left: 20px;
 }
 
 .btn {
 	background-color: #ee3643;
 	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
 }
 
 
@@ -370,15 +383,19 @@ footer {
 .popular-link {
 	width: 40%;
 	float: right;
-
+	padding-bottom: 25px;
+	padding-top: 25px;
+	padding-left: 50px;
+box-sizing: border-box;
 }
 
 .popular-btn {
+	display: inline-block;
 	text-decoration: none;
-	width: 200px;
+	width: 255px;
+	line-height: 40px;
 	box-sizing: border-box;
 	text-transform: uppercase;
-	font-size: 14px;
 
 }
 
@@ -404,9 +421,12 @@ footer {
 }
 
 .company-block {
-	
 	min-height: 540px;
-	
+
+}
+
+.company-block p{
+	font-size: 12px;
 }
 
 .about-company {
@@ -415,13 +435,24 @@ footer {
 }
 
 
+.company-btn {
+	display: block;
+	width: 220px;
+	min-height: 40px;
+	line-height: 40px;
+	font-size: 12px;
+	margin-top: 40px;
+}
+
+.red-line {
+	line-height: 25px;
+}
 
 .contacts {
 	width: 300px;
 	float: right;
 	margin-right: 0;
-	line-height: 24px;
-
+	
 }
 
 .contacts img {
@@ -432,14 +463,10 @@ footer {
 .contacts-btn {
 	display: block;
 	width: 300px;
-	font-size: 14px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	padding-bottom: 15px;
-	padding-top: 15px;
-	text-align: center;
-	text-transform: uppercase;
-	text-decoration: none;
+	min-height: 40px;
+	line-height: 40px;
+	font-size: 12px;
+	
 }
 
 .popular-items {
@@ -478,21 +505,6 @@ footer {
 	color: #f1c77e;
 }
 
-.feedback-block {
-	list-style: none;
-	margin: 0;
-	padding: 15px;
-}
-
-.feedback-block li {
-    
-	display: inline-block;
-}
-
- .feedback-block a {
-	color: #ffffff;
-	text-decoration: none;
-}
 
 .producer a { 
 vertical-align: middle; 
@@ -545,4 +557,51 @@ display: inline-block;
 	margin-top: 40px;
 }
 
-* {box-sizing: border-box;}
+
+
+.feedback-block {
+	min-height: 110px;
+	list-style: none;
+	padding-top: 40px;
+	padding-bottom: 35px;
+	margin: 0;
+	
+}
+
+ .feedback-block a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+.footer-copyright {
+	width: 300px;
+	line-height: 18px;
+	float: left;
+}
+
+.footer-social {
+	width: 230px;
+	float: left;
+}
+
+.feedback {
+	width: 170px;
+	float: left;
+	
+}
+
+.develop {
+	width: 140px;
+	float: right;
+	margin-right: 10px;
+
+}
+
+.popular-items-catalog {
+	font-size: 0;
+}
+
+.producer-catalog {
+	font-size: 0;
+}
