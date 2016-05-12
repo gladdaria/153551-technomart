@@ -605,3 +605,7 @@ display: inline-block;
 .producer-catalog {
 	font-size: 0;
 }
+
+.popular-items {
+	font-size: 18px;
+}
