@@ -198,6 +198,11 @@ header {
 	display: inline-block;
 	list-style: none;
 	padding-top: 20px;
+	padding-right: 55px;
+} 
+
+.main-menu li:last-child {
+	padding-right: 0;
 }
 
 .main-menu a {
@@ -206,9 +211,6 @@ header {
 	
 }
 
-.promo-menu {
-	padding-top: 60px;
-}
 
 .nav-menu {
 	display: inline-block;
