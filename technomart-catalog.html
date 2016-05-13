@@ -97,27 +97,31 @@
     </div>
     <div class="layout-positioner container">
     <div class="left-column">
-      <div class="filter">
-        <h3>Фильтры:</h3>	
-      </div>
-      <div>
-      	<p>Цена:</p>
-      </div>
-      <div class="range-filter">
+      <div class="filter">Фильтры:</div>
+      <h3>Цена:</h3>
+        <form action="form" method="get">
+          <div class="range-filter">
             <div class="range-controls">
-                <div class="scale"></div>
-                <div class="toggle min-toggle"></div>
-                <div class="toggle max-toggle"></div>
+              <div class="scale">
+             	<div class="bar"></div>
+              </div>
+              <div class="toggle min-toggle"></div>
+              <div class="toggle max-toggle"></div>
             </div>
             <div class="price-controls">
-                от <input class="min-price" type="text" value="0">
-                до <input class="max-price" type="text" value="30 000">
+              <label class="min-price"> 
+                 <input class="min-price" type="text" value="0">
+              </label>
+              <label class="max-price">
+                - <input class="max-price" type="text" value="30000">
+              </label>      
             </div>
         </div>
+        </form>
         <hr>
         <div class="producer-filter">
           <form action="#" method="post">
-            <p>Производители:</p>	
+            <h3>Производители:</h3>	
             <ul>
           	  <li>
           	    <input type="checkbox" name="bosch" id="bosch-field" checked>
@@ -142,9 +146,10 @@
             </ul>
           </form>  
         </div>
+        <hr>
         <div>
           <form action="#" method="post">
-            <p>Питание:</p>
+            <h3>Питание:</h3>
             <label>
               <input type="radio" name="question-one" value="accumulator" checked>
                 Аккумуляторные
@@ -223,11 +228,11 @@
         </article>
       </section>
       <div>
-      	<ul>
-      	  <li><a href="#" class="page">1</a></li>
-      	  <li><a href="#" class="page">2</a></li>
-      	  <li><a href="#" class="page">3</a></li>
-      	  <li><a href="#" class="page">Следующая</a></li>	
+      	<ul class="page">
+      	  <li><a href="#" class="page-btn">1</a></li>
+      	  <li><a href="#" class="page-btn">2</a></li>
+      	  <li><a href="#" class="page-btn">3</a></li>
+      	  <li><a href="#" class="page-btn">Следующая</a></li>	
       	</ul>
       </div>    	
     </div>
