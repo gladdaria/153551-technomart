@@ -51,7 +51,7 @@ header {
 .main-info {
 	height: 275px;
 	background-color: #f1f5f7;
-	margin-bottom: 60px;
+	margin-bottom: 30px;
 
 }
 
@@ -190,19 +190,25 @@ header {
 
 .navigation {
 	height: 60px;
-	clear: both;
 	box-shadow: 0 6px 4px -4px #293449;
+}
+
+.main-menu {
+	width: 940px;
+	padding-right: 50px;
+	padding-left: 50px;
 }
 
 .main-menu li {
 	display: inline-block;
 	list-style: none;
 	padding-top: 20px;
-	padding-right: 55px;
+	margin-right: 45px;
+	line-height: 17px;
 } 
 
 .main-menu li:last-child {
-	padding-right: 0;
+	margin-right: 0;
 }
 
 .main-menu a {
@@ -333,7 +339,8 @@ footer {
     z-index: 100;
     position: relative;
     margin-right: 4px;
-    top: 85%;
+    top: 90%;
+    left: 50%;
     transition: background 0.8s ease-out 0s;
 }
 
@@ -397,12 +404,14 @@ footer {
 	width: 300px;
 	float: right;
 	margin-right: 0px;
+	margin-top: 30px;
 }
 
 .man-toys {
 	width:620px; 
 	float: left;
 	margin-right: 20px;
+	margin-top: 30px;
 }
 
 .popular-link {
@@ -681,3 +690,131 @@ display: inline-block;
     
 }
 
+.info-about-drill {
+	min-height: 260px;
+	background-color: #f2f6f8;
+    
+}
+
+.info-about-drill h2{
+padding-top: 60px;
+}
+.info-about-drill p {
+	font-size: 12px;
+	padding-right: 10px;
+}
+
+.my-account {
+	width: 300px;
+	float: right;
+	margin:0px;
+	padding: 0;
+}
+
+.my-account li {
+  list-style: none;
+  }
+
+.my-account a {
+	text-decoration: none;
+}
+
+.my-profile {
+	width: 300px;
+	background-color: #ffffff;
+	line-height: 18px;
+	padding: 20px 15px;
+}
+
+
+
+.my-order a{
+	display: inline-block;
+}
+
+.account a{
+	display: inline-block;
+}
+
+.left-column {
+	width: 220px;
+	float: left;
+}
+
+.items {
+	width: 690px;
+	float: right;
+	margin-left: 20px;
+}
+
+.breadcrumbs {
+	margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.breadcrumbs li {
+    float: left;
+}
+
+.breadcrumbs a {
+	float: left;
+	padding-right: 60px;
+	text-decoration: none;
+}
+
+.drills {
+	background: #f2f6f8;
+	padding-left: 25px;
+	line-height: 90px;
+}
+ 
+.sorting-items {
+	background: #f7f3ec;
+	line-height: 40px;
+    margin-bottom: 20px;
+}
+
+
+.sorting {
+	float: left;
+	margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sorting li {
+	display: inline-block;
+	margin-right: 65px;
+}
+
+.sorting li:last-child {
+	margin-right: 0;
+}
+
+.picking {
+	width: 240px;
+	float: left;
+	padding-left: 20px;
+}
+
+.items-catalog {
+	font-size: 0;
+}
+
+.items-catalog article {
+	width: 220px;
+	min-height: 315px;
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	vertical-align: top;
+	border: 2px solid #e7e7e7;
+	box-sizing: border-box;
+}
+
+.items-catalog article:nth-child(3n){
+	margin-right: 0;
+}
