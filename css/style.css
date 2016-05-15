@@ -165,8 +165,17 @@ h2 {
 	background-color: #63a63e;
 }
 
+.purchase-block a:hover {
+	background-color: #212a3a;
+}
+
+
 .order:hover {
 	background-color: #5fbb2d;
+}
+
+.purchase-block a:active {
+	opacity: 0.51;
 }
 
 .info-box {
@@ -211,7 +220,7 @@ h2 {
 
 .phone span {
 	color: #b7bfc8;
-	padding-right: 40px;
+	padding-right: 30px;
 }
 
 
@@ -245,7 +254,7 @@ h2 {
  	margin-right: 0;
  }
 
-.log-in span {
+..icon-login {
 	opacity: 0.5;
 }
 
@@ -253,7 +262,7 @@ h2 {
     color: #ee3643;
 }
 
-.log-in span:hover {
+.icon-login:hover:before {
 	color: #32425c;
 	opacity: 0.8;
 }
@@ -320,8 +329,9 @@ h2 {
 
 .catalog-navigation h1 {
 	margin: 0;
+	text-transform: capitalize;
 	font-size: 24px;
-	font-weight: bold;
+	font-weight: 300;
 	color: #ffffff;
 }
 
@@ -520,20 +530,14 @@ footer {
     right: 0px;
 }
 
-span .icon-left {
-	position: absolute;
-	top: 50%;
-	left: 10%;
-	color:#ffffff;
-	font-size: 20px;
-}
-
-span .icon-right {
-	position: absolute;
-	top: 50%;
-	left: 90%;
-	color:#ffffff;
-	font-size: 20px;
+.icon-right { 
+right: 0; 
+} 
+.icon-left, .icon-right { 
+position: absolute; 
+color: #ffffff; 
+top: 40%; 
+font-size: 30px; 
 }
 
 .offer {
@@ -592,7 +596,7 @@ box-sizing: border-box;
 }
 
 .producer:hover {
-	box-shadow: -4px 5px 15px rgba(0,0,0,0.3);
+	box-shadow: 0 6px 19px 5px rgba(0,0,0,0.3);
 }
 
 .producer:active {
@@ -633,8 +637,8 @@ box-sizing: border-box;
 	list-style-image: url(../img/red-line.jpg);
 }
 
-.delivary-company li {
-	
+.delivery-company li {
+	margin: 25px 0;
 }
 
 .contacts {
@@ -642,8 +646,6 @@ box-sizing: border-box;
 	float: right;
 	margin-right: 0;
 }
-
-
 
 .contacts img {
 	margin-top: 40px;
@@ -829,6 +831,10 @@ display: inline-block;
     padding-left: 20px;
 }
 
+.benefit-list li:last-child {
+	border-top: 1px solid #405069;
+}
+
 .benefit-list .active a {
 	color: #32425c;
 	background-color: #ffffff 
@@ -978,7 +984,7 @@ padding-top: 60px;
 
 .item-catalog  {
 	position: relative;
-	width: 218px;
+	width: 220px;
 	min-height: 315px;
 	display: inline-block;
 	margin-right: 20px;
@@ -990,7 +996,7 @@ padding-top: 60px;
 }
 
 .item-catalog:hover {
-	box-shadow: -5px 8px 15px rgba(0,0,0,0.3);
+	box-shadow: 0 6px 19px 5px rgba(0,0,0,0.3); 
 }
 
 .item-catalog:nth-child(3n+3){
