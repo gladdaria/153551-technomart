@@ -24,10 +24,10 @@
           <div class="purchase">
             <ul class="purchase-block">
         	  <li>
-              <a class="bookmarks"  href="#"><span class="icon-bookmark"></span> Закладки:</a>
+              <a class="bookmarks"  href="#"><span class="icon-bookmark"></span> Закладки: 0</a>
         	  </li>
         	  <li>
-        	    <a class="basket" href="#"><span class="icon-basket"></span> Корзина:</a>	
+        	    <a class="basket" href="#"><span class="icon-basket"></span> Корзина: 0</a>	
         	  </li>
         	  <li>
         	    <a class="order" href="#">Оформить заказ </a>	
@@ -43,12 +43,12 @@
             <div> Интернет-магазин строительных материалов и инструментов для ремонта </div>
           </div>
           <div class="adress-block">
-            <p class="phone">+7(812)555-05-55</p> 
-      	    <p class="adress">г. Санкт-Петербург, ул. Б.Конюшенная, д.19/8 </p>
+            <div class="phone"><span class="icon-phone"></span> +7(812)555-05-55</div> 
+            <p>г. Санкт-Петербург, ул.Б. Конюшенная, д.19/8 </p>
           </div>
           <div class="user-block">
             <div class="log-in">
-              <a href="#">Войти</a>
+              <a href="#"><span class="icon-login"></span>Войти</a>
             </div>
             <div class="log-in">  
     	      <a href="#">Регистрация</a>
@@ -89,15 +89,23 @@
     <div class=" layout-positioner container">
       
         <div class="man-toys">
-      	  <div class="nav-menu materials">
-      	    <p>Материалы</p>
-      	    <a href="#" class="btn material-btn">на любой вкус</a>
-      	    <img src="img/materials.png" width="44" height="65">
+      	  <div class="nav-menu materials new-item">
+            <div class="catalog-navigation">
+              <h1>Материалы</h1>
+               <div class="catalog-btn"> <a href="#" class="material-btn">на любой вкус</a> </div>
+            </div>
+            <div class="catalog-navigation-image">
+      	      <img src="img/materials.png" width="44" height="65">
+            </div>  
       	  </div>
       	  <div class="nav-menu tools">
-      	    <p>Инструменты</p>
-      	    <a href="#" class="btn tools-btn">на все случаи</a>
-      	    <img src="img/tool.png" width="75" height="61">
+            <div class="catalog-navigation">
+      	      <h1>Инструменты</h1>
+      	       <div class="catalog-btn"><a href="#" class="tools-btn">на все случаи</a></div>
+            </div>
+            <div class="catalog-navigation-image">  
+      	      <img src="img/tool.png" width="75" height="61">
+            </div>  
       	  </div>
       	  <div class="promo-slider">
             <input type="radio" name="slider1" id="slider1_1" checked="checked">
@@ -107,40 +115,53 @@
                 <h1 class="main-caption">Перфораторы</h1>            
                 Настоящие мужские игрушки
               </div>
-              <a href="catalog.html" class="btn catalog-btn">открыть каталог</a>
+              <span class="icon-left"></span>
+              <span class="icon-right"></span>
+              <a href="catalog.html" class="btn drill-btn">открыть каталог</a>
               <img src="img/man_with_tool.jpg" width="620" height="266" alt="Перфораторы">
             </div>
-            
             <input type="radio" name="slider1" id="slider1_2">
             <label for="slider1_2"></label>
             <div>
             <div  class="caption">
               <h1 class="main-caption">Дрели</h1>
               Соседям на радость
-            </div>  
-              <a href="#" class="btn catalog-btn">октрыть каталог</a>
-              <img src="img/man_with_drill.jpg" width="620" height="266"  alt="Дрели">
+            </div>
+            <a href="#" class="drill-btn btn">октрыть каталог</a>
+            <img src="img/man_with_drill.jpg" width="620" height="266"  alt="Дрели">
               </div>
             </div>
           </div>
       	 
       	 
       	 <div class="offer">
-      	<div class="nav-menu tech">
-      	  <p>Техника</p>
-      	  <a href="#" class="btn tech-btn">для стройки</a>
-      	  <img src="img/tech.png" width="78" height="62">
-      	</div>
-      	<div class="nav-menu sale">
-      	  <p>Скидки</p>
-      	  <a href="#" class="btn sale-btn">на 350 товаров</a>
-      	  <img src="img/sale.png" width="59" height="72">
-      	</div>
-      	<div class="nav-menu delivery">
-      	  <p>Доставка</p>
-      	  <a href="#" class="btn deliver-btn">бесплатно</a>
-      	  <img src="img/delivery.png" width="78" height="63">
-      	</div>
+      	   <div class="nav-menu tech">
+             <div class="catalog-navigation">
+      	       <h1>Техника</h1>
+      	       <div class="catalog-btn"><a href="#" class="tech-btn">для стройки</a></div>
+              </div>  
+             <div class="catalog-navigation-image">
+      	       <img src="img/tech.png" width="78" height="62">
+              </div> 
+      	   </div>
+      	   <div class="nav-menu sale">
+             <div class="catalog-navigation">
+      	        <h1>Скидки</h1>
+      	         <div class="catalog-btn"> <a href="#" class="sale-btn">на 350 товаров</a> </div>
+             </div>  
+             <div class="catalog-navigation-image">
+      	       <img src="img/sale.png" width="59" height="72">
+             </div>  
+      	   </div>
+      	   <div class="nav-menu delivery">
+             <div class="catalog-navigation">
+      	       <h1>Доставка</h1>
+      	        <div class="catalog-btn"> <a href="#" class="deliver-btn">бесплатно</a> </div>
+             </div>  
+             <div class="catalog-navigation-image">
+      	       <img src="img/delivery.png" width="78" height="63">
+              </div> 
+      	  </div>
       	</div>
       	</div>
       	</div>
@@ -154,7 +175,7 @@
        <div class="popular-items-catalog"> 
         <article class="popular-items item-catalog">
           <div class="actions">
-            <a href="#" class="buy">Купить</a>
+            <a href="#" class="buy"><span class="icon-basket"></span>Купить</a>
             <a href="#" class="bookmark">В закладки </a>
           </div>
           <div class="item-catalog-image">
@@ -166,7 +187,7 @@
         </article>
         <article class="popular-items item-catalog">
           <div class="actions">
-            <a href="#" class="buy">Купить</a>
+            <a href="#" class="buy"><span class="icon-basket"></span>Купить</a>
             <a href="#" class="bookmark">В закладки </a>
           </div>
           <div class="item-catalog-image">
@@ -178,7 +199,7 @@
         </article>
         <article class="popular-items item-catalog">
           <div class="actions">
-            <a href="#" class="buy">Купить</a>
+            <a href="#" class="buy"><span class="icon-basket"></span>Купить</a>
             <a href="#" class="bookmark">В закладки </a>
           </div>
           <div class="item-catalog-image">
@@ -190,7 +211,7 @@
         </article>
         <article class="popular-items item-catalog new-item">
           <div class="actions">
-            <a href="#" class="buy">Купить</a>
+            <a href="#" class="buy"><span class="icon-basket"></span>Купить</a>
             <a href="#" class="bookmark">В закладки </a>
           </div>
           <div class="item-catalog-image">
@@ -248,21 +269,21 @@
       	</div>
       </div>
       </div>
-      <div class="props  layout-positioner">
+      <div class="benefit  layout-positioner">
        <div class="container">
   <div class ="services ">
     <h2> Сервисы </h2>
-    <p>Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятнымию.</p>
+    <p>Хороший интернет-магазин отличается от плохого не только ценами! <br> Мы стараемся изо всех сил, чтобы сделать ваши покупки приятнымию.</p>
   </div>
   <div class="layout-positioner ship">
-  <ul class="props-list">
+  <ul class="benefit-list">
     <li class="active"> <a href="#">Доставка</a></li>
     <li><a href="#">Гарантия</a></li>
     <li><a href="#">Кредит</a></li>
   </ul>
   <div class="shipping">
    <h2>Доставка</h2>
-    <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершено бесплатно!
+    <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершено бесплатно!<br>
      Ведь мы неплохо заработаем, поднимая его на ваш этаж!</p>
   </div> 
    </div>
@@ -275,7 +296,7 @@
       	  <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>	
       	  <p>Мы можем доставить ваш товар в самые отдаленные точки России!<br>
       	  	Техномарт работает со многими транспортными компаниями:</p>
-      	  	<ul>
+      	  	<ul class="delivery-company">
       	  	  <li class="red-line">Деловые линии</li>
       	  	  <li class="red-line">Автотейдинг</li>
       	  	  <li class="red-line">ЖелДорЭкспедиция</li>
@@ -350,11 +371,11 @@
           </section>
           <section class="feedback">
           	<div>Обратная связь:</div>
-          	<a href="mailto:mail@htmlacademy.ru" class="mail yellow-link">mail@htmlacademy.ru</a>
+          	<a href="mailto:mail@htmlacademy.ru" class="mail">mail@htmlacademy.ru</a>
           </section>
           <section class="develop">
             <div>Разработано-</div>
-            <a href="https://htmlacademy.ru" class="yellow-link">htmlacademy.ru</a>         	
+            <a href="https://htmlacademy.ru" class="mail">htmlacademy.ru</a>         	
           </section>	
           </div>
         </div>      	
