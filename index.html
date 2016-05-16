@@ -6,7 +6,7 @@
     <meta name="keywords" content="Техномарт, техника, магазин, ремонт, инструмент">
     <meta name="description" content="Инструменты для ремонта">
     <link href='https://fonts.googleapis.com/css?family=Cuprum:400,400italic,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=PT+Sans:700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet"  href="css/style.css">
   </head>
@@ -384,21 +384,22 @@
       </div> 
       <div class="feedback-form">
         <div class="cross"></div>
-        <div class="layout-positioner user-mail">
-          <div class="user-field">
-            <label for="user-field-id">Ваше имя:</label>
-            <input id="user-field-id" type="text" name="username" d placeholder="Представтесь, пожалуйста" required> </input>
-          </div>
-          <div class="mail-field">
-            <label for="mail-field-id">Ваш e-mail:</label>
-            <input id="mail-field-id" type="text" name="usermail" placeholder="Для отправки ответа" required></input>
-          </div>
-        </div>  
-        <textarea rows="5" cols="70" class="comment">В свободной форме</textarea>
-        
-          <div class="send"><a href="#">Отправить</a></div>
-        
-
+        <div class="user-mail">
+          <div class="layout-positioner your-name">
+            <div class="user-field">
+              <label for="user-field-id">Ваше имя:</label>
+              <input id="user-field-id" type="text" name="username" d placeholder="Представтесь, пожалуйста" required></input>
+            </div>  
+            <div class="mail-field">
+              <label for="mail-field-id">Ваш e-mail:</label>
+              <input id="mail-field-id" type="text" name="usermail" placeholder="Для отправки ответа" required>
+              </input>
+            </div>
+           </div>
+          <label for="message">Текст письма:</label>  
+          <textarea rows="5" cols="67" class="comment" id="message">В свободной форме</textarea>
+        </div>
+        <div class="send"><a href="#">Отправить</a></div>
       </div> 
   </body>
 </html>  

@@ -997,8 +997,17 @@ padding-top: 60px;
 }
 
 .my-order {
+	width: 100px;
 	margin-right: 20px;
+	position: relative;
 }
+
+.my-order, .account {
+	color: #f1f1f1;
+	text-decoration: underline;
+}
+
+
 
 .my-order a:hover, .account a:hover {
 	text-decoration: underline;
@@ -1012,13 +1021,14 @@ padding-top: 60px;
 }
 
  .my-order:after { 
-content: "."; 
+ position: absolute;	
+content: ""; 
 width: 5px; 
 height: 5px; 
 border-radius: 50%; 
 display: inline-block; 
 position: relative; 
-background: #1e1e1e; 
+background: f1f1f1; 
 top: 7px; 
 right: -18px; 
 }
@@ -1026,6 +1036,7 @@ right: -18px;
 .left-column {
 	width: 220px;
 	float: left;
+	font-family: PT Sans, Arial, sans-serif;
 }
 
 .items {
@@ -1042,6 +1053,9 @@ right: -18px;
 
 
 .breadcrumbs li {
+	font-family: PT Sans, Arial, sans-serif;
+	text-transform: uppercase;
+	font-size: 13px;
     float: left;
     padding-right: 15px;
 }
@@ -1056,6 +1070,7 @@ right: -18px;
 
 .breadcrumbs span {
 	color: #c1c6ce;
+	font-size: 16px;
 }
 
 .drills {
@@ -1066,9 +1081,12 @@ right: -18px;
 }
  
 .sorting-items {
+	font-family: PT Sans, Arial, sans-serif;
 	background: #f7f3ec;
 	line-height: 40px;
     margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 13px;
 }
 
 
@@ -1082,7 +1100,7 @@ right: -18px;
 .sorting li {
 	display: inline-block;
 	vertical-align: middle;
-	margin-right: 66px;
+	margin-right: 63px;
 }
 
 .sorting li:last-child {
@@ -1360,6 +1378,8 @@ right: -18px;
 	line-height: 40px;
     margin-bottom: 20px;
     padding-left: 20px;
+    text-transform: uppercase;
+    font-size: 13px;
 }
 
 .range-filter {
@@ -1605,14 +1625,13 @@ right: -18px;
 	padding-top: 60px;
 }
 
-.cross:before {
+.cross{
 	position: absolute;
 	top: 7px;
 	right: 7px;
 	z-index: 10;
 	width: 20px;
 	height: 20px;
-	content: " ";
 	background: url(../img/cross.png) no-repeat 0 0;
 }
 
@@ -1683,7 +1702,6 @@ right: -18px;
     -ms-transform: translateX(-10%); 
     transform: translateX(-50%); 
     top: 200px; 
-    background: #ffffff; 
 }
 
 .red-basket {
@@ -1712,8 +1730,8 @@ right: -18px;
 }
 
 .feedback-form {
-	width: 625px;
-	height: 435px;
+	width: 620px;
+	height: 420px;
 	/*display: none;*/
 	position: relative;
 	z-index: 120;
@@ -1725,7 +1743,11 @@ right: -18px;
     transform: translateX(-50%); 
     top: 200px; 
     background: #ffffff; 
-    padding: 45px 80px 30px;
+    
+}
+
+.your-name {
+	margin-bottom: 20px;
 }
 
 .user-field {
@@ -1739,29 +1761,42 @@ right: -18px;
 }
 
 .user-mail {
-	margin-bottom: 20px;
+	padding: 60px 80px 40px;
 }
 
 .user-mail input {
 	width: 215px;
 	height: 30px;
 	border-radius: 3px;
+	border: 1px solid #d7dcde;
+	padding-left: 15px;
 }
 
 .comment {
-	border: 1px solid #d7dcde;
+	padding-left: 15px;
 	border-radius: 3px;
+	border: 1px solid #d7dcde;
 	color: #cfcfcf;
-	margin-bottom: 30px;
+	resize: none;
 }
 
-
+.send {
+	padding: 40px 80px;
+	background-color: #f1f1f1;
+} 
 
 .send a {
+	display: inline-block;
+	vertical-align: middle;
    	text-decoration: none;
    	color: #ffffff;
    	background-color: #ee3643;
    	text-transform: uppercase;
    	padding: 15px 195px;
    	border-radius: 3px;
+}
+
+.pop-up-map .cross {
+	top: 20px;
+	right: 20px;
 }
