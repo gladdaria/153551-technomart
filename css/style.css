@@ -157,7 +157,7 @@ h2 {
 	background-color: #212a3a;
 }
 
-.search-field:active {
+.search-field:focus {
 	background-color: #ffffff;
 	color: #333333;
 }
@@ -1065,7 +1065,7 @@ right: -18px;
 	border-bottom:none;
 }
 
-.sorting a:hover .triangle {
+.sorting li:last-child a:hover {
 	border-bottom:none;
 }
 
@@ -1305,7 +1305,7 @@ right: -18px;
 	border: 1px solid #ee3744;
 }
 
-.current {
+.page a .current {
 	background-color: #ee3744;
 	color: #ffffff;
 }
@@ -1458,7 +1458,7 @@ right: -18px;
 	display: block;
 	margin:10px 0;
 	line-height: 20px;
-	padding-left: 45px;
+	padding-left: 25px;
 	position:relative;
 	cursor:pointer;
 }
@@ -1496,7 +1496,7 @@ right: -18px;
 	display: block;
 	margin:10px 0;
 	line-height: 20px;
-	padding-left: 45px;
+	padding-left: 25px;
 	position:relative;
 	cursor:pointer;
 }

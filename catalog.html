@@ -154,15 +154,10 @@
         <div class="battery-checkbox">
           <form action="#" method="post">
             <h3>Питание:</h3>
-            <label>
-              <input type="radio" name="question-one" value="accumulator" checked>
-                Аккумуляторные
-            </label>
-            <br>
-            <label>
-              <input type="radio" name="question-one" value="AC-battery">
-                Сетевые
-            </label>
+            <label for="accumulator"> Аккумуляторные</label>
+            <input type="radio" name="question-one" value="accumulator" id="accumulator" checked>
+            <label for="AC-battery">Сетевые</label>
+            <input type="radio" name="question-one" value="AC-battery" id="AC-battery">
           </form> 	
         </div>
         <div class="link-show">
