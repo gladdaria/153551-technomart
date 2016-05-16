@@ -379,20 +379,26 @@
       </footer>
       <div class="pop-up-map">
         <div class="cross">
-          <img src="img/map-big.jpg" width="970" height="476">
+          <img src="img/map-big.png" width="970" height="476">
         </div>
       </div> 
       <div class="feedback-form">
-        <div>
-          <label for="user-field-id">Ваше имя:</label>
-          <input id="user-field-id" type="text" name="username" d placeholder="Представтесь, пожалуйста" required></input>
-        </div>
-        <div>
-          <label for="mail-field-id">Ваш e-mail:</label>
-          <input id="mail-field-id" type="text" name="usermail" placeholder="Для отправки ответа" required></input>
-        </div>
-        <textarea rows="" cols=""></textarea>
-        <div><a href="#">Отправить</a></div>
-      </div>     
-    </body>
+        <div class="cross"></div>
+        <div class="layout-positioner user-mail">
+          <div class="user-field">
+            <label for="user-field-id">Ваше имя:</label>
+            <input id="user-field-id" type="text" name="username" d placeholder="Представтесь, пожалуйста" required> </input>
+          </div>
+          <div class="mail-field">
+            <label for="mail-field-id">Ваш e-mail:</label>
+            <input id="mail-field-id" type="text" name="usermail" placeholder="Для отправки ответа" required></input>
+          </div>
+        </div>  
+        <textarea rows="5" cols="70" class="comment">В свободной форме</textarea>
+        
+          <div class="send"><a href="#">Отправить</a></div>
+        
+
+      </div> 
+  </body>
 </html>  
