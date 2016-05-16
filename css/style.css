@@ -950,10 +950,14 @@ padding-top: 60px;
 }
 
 .my-account li {
-  list-style: none;
-  display: inline-block;
-  vertical-align: middle;
+  	list-style: none;
+  	display: inline-block;
+ 	vertical-align: middle;
   }
+
+.my-account a, .my-profile a  {
+	color: #3b4a63; 
+}
 
 .my-account a {
 	text-decoration: none;
@@ -997,9 +1001,10 @@ padding-top: 60px;
 }
 
 .my-order {
-	width: 100px;
+	width: 119px;
 	margin-right: 20px;
 	position: relative;
+	padding-left: 16px;
 }
 
 .my-order, .account {
@@ -1020,17 +1025,17 @@ padding-top: 60px;
 	opacity: 0.3;
 }
 
- .my-order:after { 
- position: absolute;	
-content: ""; 
-width: 5px; 
-height: 5px; 
-border-radius: 50%; 
-display: inline-block; 
-position: relative; 
-background: f1f1f1; 
-top: 7px; 
-right: -18px; 
+.my-order:after { 
+ 	position: absolute;	
+	content: ""; 
+	width: 5px; 	
+	height: 5px; 
+	border-radius: 50%; 
+	display: inline-block; 
+	position: absolute; 
+	background: #3b4a63; 
+	top: 7px; 
+	right: 0; 
 }
 
 .left-column {
@@ -1630,8 +1635,8 @@ right: -18px;
 	top: 7px;
 	right: 7px;
 	z-index: 10;
-	width: 20px;
-	height: 20px;
+	width: 21px;
+	height: 21px;
 	background: url(../img/cross.png) no-repeat 0 0;
 }
 
@@ -1752,12 +1757,12 @@ right: -18px;
 
 .user-field {
 	float: left;
-	width: 225px;
+	width: 230px;
 }
 
 .mail-field {
 	float: right;
-	width: 225px;
+	width: 230px;
 }
 
 .user-mail {
@@ -1765,6 +1770,7 @@ right: -18px;
 }
 
 .user-mail input {
+	font-family: PT Sans, Arial, sans-serif;
 	width: 215px;
 	height: 30px;
 	border-radius: 3px;
@@ -1773,6 +1779,8 @@ right: -18px;
 }
 
 .comment {
+	font-family: PT Sans, Arial, sans-serif;
+	min-width: 460px;
 	padding-left: 15px;
 	border-radius: 3px;
 	border: 1px solid #d7dcde;
