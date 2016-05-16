@@ -17,17 +17,17 @@
           <div class="label"><a href="index.html" class="label-link">Техномарт</a></div>
           <div class="search">
           	<form action="" method="get">
-              <input type="text" name="search">
+              <input type="search" placeholder="Поиск:" name="search" class="search-field">
             </form>
           </div>
         </div>
           <div class="purchase">
             <ul class="purchase-block">
         	  <li>
-              <a class="bookmarks" href="#"><span class="icon-bookmark"></span>Закладки:</a>
+              <a class="bookmarks" href="#"><span class="icon-bookmark"></span>Закладки: 0</a>
         	  </li>
         	  <li>
-        	    <a class="basket" href="#"><span class="icon-basket"></span> Корзина:</a>	
+        	    <a class="basket red-basket" href="#"><span class="icon-basket"></span> Корзина: 10</a>	
         	  </li>
         	  <li>
         	    <a class="order" href="#">Оформить заказ </a>	
@@ -94,7 +94,7 @@
           <li><span class="icon-right"></span></li>
     		  <li><a href="#">Инструмент</a></li>
           <li><span class="icon-right"></span></li>
-    		  <li><a href="catalog.html" class="current">Перфораторы</a></li>
+    		  <li><a href="catalog.html">Перфораторы</a></li>
     	  </ul>
       </div>
     
@@ -124,11 +124,10 @@
             </div>
         </div>
         </form>
-        <hr>
         <div class="producer-filter">
           <form action="#" method="post">
             <h3>Производители:</h3>	
-            <ul>
+            <ul class="producer-checkbox">
           	  <li>
           	    <input type="checkbox" name="bosch" id="bosch-field" checked>
                 <label for="bosch-field">BOSCH</label>	
@@ -152,8 +151,7 @@
             </ul>
           </form>  
         </div>
-        <hr>
-        <div>
+        <div class="battery-checkbox">
           <form action="#" method="post">
             <h3>Питание:</h3>
             <label>
@@ -165,9 +163,10 @@
               <input type="radio" name="question-one" value="AC-battery">
                 Сетевые
             </label>
-            <br>
-            <input type="submit" value="Показать">
           </form> 	
+        </div>
+        <div class="link-show">
+          <a href="#">Показать</a>
         </div>
     </div>
     <div class="items">
@@ -178,8 +177,8 @@
       	  <li> <a href="#"> по типу </a> </li>
       	  <li><a href="#"> по функционалу </a> </li>
           <li>
-            <a href="#"><span class="icon-up-dir"></span></a>
-            <a href="#"><span class="icon-down-dir"></span></a>
+            <a href="#" class="triangle"><span class="icon-up-dir"></span></a>
+            <a href="#" class="triangle"><span class="icon-down-dir"></span></a>
           </li>
           
       	</ul>
@@ -297,7 +296,7 @@
       </section>
       <div>
       	<ul class="page">
-      	  <li><a href="#" class="page-btn">1</a></li>
+      	  <li><a href="#" class="page-btn  current">1</a></li>
       	  <li><a href="#" class="page-btn">2</a></li>
       	  <li><a href="#" class="page-btn">3</a></li>
       	  <li><a href="#" class="page-btn">Следующая</a></li>	
@@ -378,6 +377,14 @@
           </section>	
           </div>
         </div>      	
-      </footer>      
+      </footer>
+      <div class="item-in-basket cross">
+        <h1>Товар добавлен в корзину!</h1>
+          <ul>
+            <li><a href="#">Офомить заказ</a></li>
+            <li><a href="#">Продолжить покупки</a></li>
+          </ul>
+        </div>
+      </div>      
   </body>
 </html>  
