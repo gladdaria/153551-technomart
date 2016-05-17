@@ -1048,12 +1048,14 @@ padding-top: 60px;
 	width: 220px;
 	float: left;
 	font-family: PT Sans, Arial, sans-serif;
+	padding-top: 35px;
 }
 
 .items {
 	width: 700px;
 	float: right;
 	margin-left: 20px;
+	padding-top: 35px;
 }
 
 .breadcrumbs {
@@ -1170,10 +1172,10 @@ padding-top: 60px;
 .item-catalog  {
 	position: relative;
 	width: 220px;
-	min-height: 315px;
+	min-height: 300px;
 	display: inline-block;
 	margin-right: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	text-align: center;
 	vertical-align: top;
 	border: 1px solid #e7e7e7;
