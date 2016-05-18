@@ -447,11 +447,13 @@ footer {
 .popular {
 	text-align: left;
 	line-height: 30px;
+	margin-top: 30px;
 }
 
 .popular-catalog {
 	width: 940px;
 	background-color: #f7f3ec;
+	margin-top: 10px;
 	margin-bottom: 20px;   
 }
 
@@ -588,14 +590,14 @@ font-size: 30px;
 	width: 300px;
 	float: right;
 	margin-right: 0px;
-	margin-top: 30px;
+	margin-top: 37px;
 }
 
 .man-toys {
 	width:620px; 
 	float: left;
 	margin-right: 20px;
-	margin-top: 30px;
+	margin-top: 37x;
 }
 
 .popular-link {
@@ -649,11 +651,13 @@ box-sizing: border-box;
 }
 
 .company-block {
-	min-height: 540px;
+	min-height: 473px;
 }
 
 .company-block p {
+	font-family: PT Sans, Arial, sans-serif; 
 	font-size: 13px;
+	margin-bottom: 33px; 
 }
 
 .about-company {
@@ -670,7 +674,7 @@ box-sizing: border-box;
 	width: 220px;
 	min-height: 40px;
 	line-height: 40px;
-	font-size: 12px;
+	font-size: 14px;
 	margin-top: 40px;
 }
 
@@ -683,7 +687,7 @@ box-sizing: border-box;
 }
 
 .delivery-company li {
-	margin: 25px 0;
+	margin: 19px 0;
 }
 
 .contacts {
@@ -708,7 +712,10 @@ box-sizing: border-box;
 	min-height: 190px;
 	list-style: none;
 	margin: 0;
-	
+}
+
+.main-footer .label {
+	line-height:56px
 }
 
  .main-footer li {
@@ -740,6 +747,10 @@ display: inline-block;
 	float: left;
 }
 
+.logo-footer .label-link {
+	font-size: 30px;
+}
+
 .footer-menu {
 	width: 550px;
 	float:right;
@@ -752,7 +763,7 @@ display: inline-block;
 }
 
 .company-menu li {
-	margin-right: 55px;
+	margin-right: 51px;
 }
 
 .company-menu li:last-child {
@@ -766,7 +777,7 @@ display: inline-block;
 }
 
 .items-menu li{
-    margin-right: 55px;
+    margin-right: 51px;
 }
 
 
@@ -804,7 +815,7 @@ display: inline-block;
 
 
 .footer-copyright {
-	width: 400px;
+	width: 392px;
 	line-height: 18px;
 	float: left;
 }
@@ -834,13 +845,13 @@ display: inline-block;
 
 .benefit {
 	min-height: 525px;
-	background: url(../img/lorry.png) 85% 100% no-repeat #f2f6f8;
+	background-color: #f2f6f8;
 	margin-bottom: 80px;
 }
 
 .services {
 	width: 410px; 
-	margin-bottom: 75px;
+	margin-bottom: 69px;
 	padding-top: 65px;
 }
 
@@ -849,9 +860,12 @@ display: inline-block;
 }
 
 .benefit p{
+	font-family: PT Sans, Arial, sans-serif; 
 	line-height: 24px;
 	font-size: 13px;
 	margin: 0;
+	margin-top: 10px; 
+	margin-bottom: 75px;
 }
 
 .benefit-list {
@@ -880,6 +894,7 @@ display: inline-block;
 .benefit-list a {
 	line-height: 60px;
 	font-weight: bold;
+	font-size: 20px;
     display: block;
     margin-bottom: -1px;
     color: #ffffff;
@@ -921,8 +936,28 @@ display: inline-block;
 	top: 8px; 
 }
 
+.slider2-1 {
+	background-image: url(../img/lorry.png);
+	background-repeat: no-repeat;
+	background-position: 85% 100%; 
+}
+
+.slider2-2 {
+	background-image: url(../img/warranty.png);
+	background-repeat: no-repeat;
+	background-position: 85% 100%; 
+}
+
+.slider2-3 {
+	background-image: url(../img/credit.png);
+	background-repeat: no-repeat;
+	background-position: 85% 100%; 
+}
+
+
+
 .shipping {
-	width: 270px;
+	width: 280px;
 	float: left;
     margin-left: 85px;
 }
@@ -1048,23 +1083,26 @@ padding-top: 60px;
 	width: 220px;
 	float: left;
 	font-family: PT Sans, Arial, sans-serif;
-	padding-top: 35px;
+	padding-top: 14px;
+}
+
+.left-column h3 { 
+	text-transform: uppercase; 
+	font-size: 17px; 
 }
 
 .items {
 	width: 700px;
 	float: right;
 	margin-left: 20px;
-	padding-top: 35px;
+	padding-top: 14px;
 }
 
 .breadcrumbs {
 	margin: 0;
-    padding: 0;
+	padding: 0;
     list-style: none;
-
 }
-
 
 .breadcrumbs li {
 	font-family: PT Sans, Arial, sans-serif;
@@ -1072,6 +1110,7 @@ padding-top: 60px;
 	font-size: 13px;
     float: left;
     padding-right: 10px;
+    margin-bottom: 20px;
 }
 
 .breadcrumbs li:first-child {
@@ -1092,12 +1131,13 @@ padding-top: 60px;
 }
 
 .drills {
-	margin: 0;
 	min-height: 90px;
-	color: #4c5a71;
-	background: #f2f6f8;
+	margin: 0;
+	margin-top: 20px; 
 	padding-left: 30px;
 	line-height: 90px;
+	color: #4c5a71;
+	background: #f2f6f8;
 }
  
 .sorting-items {
@@ -1296,7 +1336,7 @@ padding-top: 60px;
 	font-size: 18px;
 	line-height: 18px;
 	margin-top: 10px;
-	margin-bottom: 15px;
+	margin-bottom: 1px;
 	padding: 0 25px;
 	color: #000000;
 }
@@ -1491,7 +1531,8 @@ padding-top: 60px;
 }
 
 .producer-filter li {
-	list-style:none; 
+	list-style:none;
+	margin-bottom: 17px;  
 }
 
 .social-btn {
@@ -1577,12 +1618,18 @@ padding-top: 60px;
 	color: b5b5b5;
 }
 
+.battery-checkbox {
+	margin-top: 35px; 
+}
+
 .battery-checkbox input[type=radio]{
 	display: none;
 }
 
 .battery-checkbox label {
 	text-transform: uppercase;
+	color: #444444;
+	font-size: 15px;
 }
 
 .battery-checkbox input[type=radio]+label {
@@ -1609,11 +1656,6 @@ padding-top: 60px;
 
 .battery-checkbox input[type=radio]:checked + label:before {
 	content: "\25cf";
-}
-
-.battery-checkbox label {
-	color: #444444;
-	font-size: 15px;
 }
 
 .item-in-basket {
@@ -1654,8 +1696,6 @@ padding-top: 60px;
 	height: 21px;
 	background: url(../img/cross.png) no-repeat 0 0;
 }
-
-
 
 .green-thick {
 	width: 60px;
