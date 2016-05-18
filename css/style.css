@@ -498,6 +498,11 @@ h2
     padding-left: 10px;
 }
 
+.man-toys .catalog-navigation-image
+{
+	padding-left: 30px;
+}
+
 .materials
 {
     margin-right: 15px;
@@ -529,6 +534,8 @@ h2
 
 .catalog-btn
 {
+	font-size: 14px;
+
     line-height: 38px;
 
     width: 135px;
@@ -661,8 +668,8 @@ footer
 {
     position: relative;
     z-index: 100;
-    top: 90%;
-    left: 50%;
+    top: 82%;
+    left: 48%;
 
     display: inline-block;
 
@@ -739,12 +746,13 @@ footer
     position: absolute;
     top: 75%;
     right: 0;
-    left: 0;
+    left: 2px;
 
-    width: 200px;
+    width: 190px;
+    margin-top: 10px;
     margin-left: 25px;
-    padding-top: 14px;
-    padding-bottom: 14px;
+    padding-top: 11px;
+    padding-bottom: 11px;
 }
 
 .promo-slider .icon-right
@@ -754,7 +762,7 @@ footer
 .promo-slider .icon-left,
 .promo-slider .icon-right
 {
-    font-size: 30px;
+    font-size: 48px;
 
     position: absolute;
     top: 40%;
@@ -1267,6 +1275,11 @@ footer
 {
     margin-bottom: 20px;
     padding-bottom: 100px;
+}
+
+.slider2-3 p
+{
+	margin-bottom: 30px;
 }
 
 .info-about-drill
