@@ -260,7 +260,6 @@ h2 {
 	padding-right: 27px;
 }
 
-
 .user-block {
 	width: 350px;
 	float: right;
@@ -271,7 +270,6 @@ h2 {
 	text-decoration: none;
 	color: #444444;
 }
-
 
 .log-in  {
 	width: 120px;
@@ -331,8 +329,8 @@ h2 {
 	font-size: 17px;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 43px;
-    padding-right: 19px;
+    padding-left: 30px;
+    padding-right: 30px;
 	text-decoration: none;
 	color: #f1f2f4;
 }
@@ -358,12 +356,13 @@ h2 {
 .catalog-navigation {
 	width: 180px;
 	float: left;
-	padding-top: 25px;
+	padding-top: 14px;
 	padding-left: 20px;
 }
 
 .catalog-navigation h1 {
 	margin: 0;
+	margin-bottom: 5px;
 	text-transform: capitalize;
 	font-size: 24px;
 	font-weight: 300;
@@ -472,7 +471,6 @@ footer {
 .btn:active {
 	background-color: #ba2732;
 }
-
 
 .items-btn {
 	float: right;
@@ -742,6 +740,7 @@ footer {
 	padding-top: 30px;
 	font-size: 18px;
 }
+
 .company-menu {
 	margin: 0;
 	padding: 0
@@ -919,19 +918,23 @@ footer {
 .slider2-1 {
 	background-image: url(../img/lorry.png);
 	background-repeat: no-repeat;
-	background-position: 85% 100%; 
+	background-position: 100% 23px;  
 }
 
 .slider2-2 {
 	background-image: url(../img/warranty.png);
 	background-repeat: no-repeat;
-	background-position: 85% 100%; 
+	background-position: 100% 23px; 
 }
 
 .slider2-3 {
 	background-image: url(../img/credit.png);
 	background-repeat: no-repeat;
-	background-position: 85% 100%; 
+	background-position: 100% 23px;  
+}
+
+.slider2-2, .slider2-3 {
+	display: none;
 }
 
 .shipping {
@@ -942,6 +945,11 @@ footer {
 
 .shipping p {
 	text-align: left;
+}
+
+.slider2-3 .shipping {
+	margin-bottom: 20px;
+	padding-bottom: 100px;
 }
 
 .info-about-drill {
@@ -988,7 +996,6 @@ footer {
 	padding: 0;
 	text-align: left;
 }
-
 
 .my-profile a {
 	color: #000000;
@@ -1107,7 +1114,6 @@ footer {
 .drills {
 	min-height: 90px;
 	margin: 0;
-	margin-top: 20px; 
 	padding-left: 30px;
 	line-height: 90px;
 	color: #4c5a71;
@@ -1122,7 +1128,6 @@ footer {
     text-transform: uppercase;
     font-size: 13px;
 }
-
 
 .sorting {
 	float: left;
@@ -1307,10 +1312,11 @@ footer {
 .item-catalog .title {
 	font-size: 18px;
 	line-height: 18px;
-	margin-top: 10px;
+	margin-top: 17px;
 	margin-bottom: 1px;
 	padding: 0 25px;
 	color: #000000;
+	text-transform: none;
 }
 
 .item-catalog .discount {
@@ -1365,26 +1371,30 @@ footer {
 }
 
 .page li {
-	width: 40px;
+	width: 38px;
 	display: inline-block;
 	vertical-align: top;
-	margin-right: 10px;
-	margin-top:30px;
+	margin-right: 5px;
+	margin-top:53px;
 	margin-bottom: 30px;
 }
 
 .page li:last-child {
-	width: 140px;
+	width: 150px;
+	text-transform: uppercase;
 }
 
 .page a {
+	font-family: PT Sans, Arial, sans-serif;
 	color: #000000;
 	text-decoration: none;
-	padding: 15px 20px;
+	padding: 10px 15px;
+	font-size: 14px;
 }
 
 .page-btn {
 	border:1px solid #e5e5e5;
+	border-radius: 3px;
 }
 
 .page-btn:hover {
@@ -1404,7 +1414,7 @@ footer {
 	width: 220px;
     background: #f7f3ec;
 	line-height: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     padding-left: 20px;
     text-transform: uppercase;
     font-size: 13px;
@@ -1412,13 +1422,13 @@ footer {
 
 .range-filter {
 	width: 220px;
-	margin-bottom: 25px;
+	margin-bottom: 20px;
 }
 
 .range-controls {
 	position: relative;
 	min-height: 80px;
-	padding-top: 39px;
+	padding-top: 42px;
 	padding-right: 20px;
 	padding-left:20px;
 	margin-bottom: 10px;
@@ -1439,12 +1449,12 @@ footer {
 
 .range-controls .toggle {
 	position: absolute;
-	top: 30px;
+	top: 33px;
 	left: 0px;
 	width: 4px;
 	height: 4px;
 	cursor: pointer;
-	border: 8px solid #fff;
+	border: 10px solid #fff;
 	background: #ababab;
 	border-radius: 50%; 
 	box-shadow: 0 2px 1px 0 #cfcfcf;
@@ -1500,7 +1510,7 @@ footer {
 
 .producer-filter li {
 	list-style:none;
-	margin-bottom: 17px;  
+	margin-bottom: 21px;  
 }
 
 .social-btn {
@@ -1519,7 +1529,6 @@ footer {
 .social-btn span {
 	font-size: 18px;
 	line-height: 40px;
-
 }
  
 .social-btn:hover {
@@ -1587,7 +1596,7 @@ footer {
 }
 
 .battery-checkbox {
-	margin-top: 35px; 
+	margin-top: 20px; 
 }
 
 .battery-checkbox input[type=radio]{
@@ -1602,7 +1611,7 @@ footer {
 
 .battery-checkbox input[type=radio]+label {
 	display: block;
-	margin:10px 0;
+	margin:10px 0 20px;
 	line-height: 20px;
 	font-size: 14px;
 	padding-left: 35px;
@@ -1699,7 +1708,6 @@ footer {
 	margin-right:0;
 }
 
-
 .link-section a {
 	display: block;
 	font-size: 14px;
@@ -1737,21 +1745,18 @@ footer {
 }
 
 .link-show {
-	margin-top: 70px;
+	margin-top: 55px;
     width: 140px;
     text-align: center;
-}    
-
-.link-show a {
-	font-size: 14px;
-	color: ;
+    font-size: 12px;
 	text-decoration: none;
 	color: #000000;
+	background-color: #ffffff;
     border-radius: 3px;
     text-transform: uppercase;
     border: 1px solid #e5e5e5;
     padding: 15px 38px;
-}
+}    
 
 .hr-line {
 	border-bottom: 1px solid #e5e5e5;
