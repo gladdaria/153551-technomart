@@ -472,7 +472,7 @@ h2
 
     width: 180px;
     padding-top: 14px;
-    padding-left: 20px;
+    padding-left: 26px;
 }
 
 .catalog-navigation h1
@@ -501,6 +501,12 @@ h2
 .man-toys .catalog-navigation-image
 {
 	padding-left: 30px;
+}
+
+.tools .catalog-navigation-image
+{
+	padding-left: 19px;
+	padding-top: 32px;
 }
 
 .materials
@@ -605,7 +611,12 @@ footer
 
     width: 60%;
     margin: 0;
-    padding-left: 20px;
+    padding-left: 28px;
+}
+
+.popular-producer 
+{
+	padding-left: 25px;
 }
 
 .btn
@@ -795,7 +806,7 @@ footer
     width: 40%;
     padding-top: 25px;
     padding-bottom: 25px;
-    padding-left: 100px;
+    padding-left: 99px;
 }
 
 .popular-btn
@@ -1772,8 +1783,8 @@ footer
     font-size: 18px;
     line-height: 18px;
 
-    margin-top: 17px;
-    margin-bottom: 1px;
+    margin-top: 13px;
+    margin-bottom: 6px;
     padding: 0 25px;
 
     text-transform: none;
@@ -1784,7 +1795,8 @@ footer
 .item-catalog .discount
 {
     min-height: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 3px;
+    padding-left: 2px;
 
     text-decoration: line-through;
 
@@ -1795,8 +1807,8 @@ footer
 {
     position: relative;
 
-    width: 140px;
-    margin: 0 auto 20px ;
+    width: 139px;
+    margin: 0 37px 20px 42px;
     padding: 10px 30px;
 
     color: #fff;
