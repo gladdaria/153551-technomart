@@ -2103,12 +2103,12 @@ footer
     background-color: #f7f3ec;
 }
 
-label .max-price
+label.max-price
 {
     position: relative;
 }
 
-label .max-price:before
+label.max-price:before
 {
     position: absolute;
     top: 9px;
