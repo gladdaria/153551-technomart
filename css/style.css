@@ -841,6 +841,11 @@ footer
     margin-right: 0;
 }
 
+.producer:nth-child(4) a 
+{ 
+	line-height: 132px; 
+}
+
 .producer a
 {
     vertical-align: middle;
