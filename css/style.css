@@ -860,15 +860,18 @@ footer
 
 .company-block
 {
-    min-height: 463px;
+    min-height: 470px;
 }
 
 .company-block p
 {
     font-family: PT Sans, Arial, sans-serif;
     font-size: 13px;
+    line-height: 24px;
+    text-align: justify;
 
-    margin-bottom: 33px;
+    margin-bottom: 25px;
+    margin-top: 14px;
 }
 
 .about-company
@@ -883,26 +886,26 @@ footer
     margin: 0;
 }
 
-
-
 .company-btn
 {
     font-size: 14px;
-    line-height: 40px;
+    line-height: 38px;
 
     display: block;
 
     width: 220px;
-    min-height: 40px;
-    margin-top: 40px;
+    min-height: 38px;
+    margin-top: 35px;
+    padding-left: 6px;
 }
 
 .delivery-company
 {
-    font-size: 18px;
+    font-size: 17px;
     font-weight: bold;
     line-height: 20px;
 
+    margin-top: 11px;
     padding: 0;
 
     list-style: none;
@@ -910,7 +913,12 @@ footer
 
 .delivery-company li
 {
-    margin: 19px 0;
+    margin: 17px 0;
+}
+
+.delivery-company li:last-child 
+{
+	margin-top: 19px;
 }
 
 .contacts
@@ -923,18 +931,19 @@ footer
 
 .contacts img
 {
-    margin-top: 40px;
-    margin-bottom: 20px;
+	margin-top: 5px;
+    margin-bottom: 37px;
 }
 
 .contacts-btn
 {
-    line-height: 40px;
+    line-height: 38px;
 
     display: block;
 
     width: 300px;
-    min-height: 40px;
+    min-height: 38px;
+    padding-left: 6px;
 }
 
 .main-footer
@@ -1002,7 +1011,7 @@ footer
     float: right;
 
     width: 550px;
-    padding-top: 30px;
+    padding-top: 37px;
 }
 
 .company-menu
@@ -1013,7 +1022,7 @@ footer
 
 .company-menu li
 {
-    margin-right: 51px;
+    margin-right: 55px;
 }
 
 .company-menu li:last-child
@@ -1023,14 +1032,14 @@ footer
 
 .items-menu
 {
-    margin-top: 40px;
+    margin-top: 37px;
     margin-left: 25px;
     padding: 0;
 }
 
 .items-menu li
 {
-    margin-right: 51px;
+    margin-right: 55px;
 }
 
 .items-menu li:last-child
@@ -1114,7 +1123,7 @@ footer
 .benefit
 {
     min-height: 525px;
-    margin-bottom: 80px;
+    margin-bottom: 75px;
 
     background-color: #f2f6f8;
 }
@@ -1122,7 +1131,7 @@ footer
 .services
 {
     width: 410px;
-    margin-bottom: 56px;
+    margin-bottom: 51px;
     padding-top: 65px;
 }
 
@@ -1138,7 +1147,7 @@ footer
     line-height: 24px;
 
     margin: 0;
-    margin-top: 10px;
+    margin-top: 13px;
 }
 
 .benefit-list
@@ -1267,7 +1276,7 @@ footer
     float: left;
 
     width: 280px;
-    margin-left: 85px;
+    margin-left: 80px;
 }
 
 .shipping h2
