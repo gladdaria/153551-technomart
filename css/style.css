@@ -63,7 +63,6 @@ body
 .icon-search::before { content: "🔍"; } /* "\1f50d" */
 .icon-bookmark::before { content: "🔖"; } /* "\1f516" */
 
-
 h1
 {
     font-size: 36px;
@@ -215,7 +214,7 @@ h2
 
 .purchase-block
 {
-    font-size: 0;	
+    font-size: 0;
 
     margin: 0;
     padding: 0;list-style: none;
@@ -414,6 +413,7 @@ h2
     width: 940px;
     margin: 0;
     padding: 0;
+    padding-left: 10px;
 }
 
 .main-menu li
@@ -500,13 +500,13 @@ h2
 
 .man-toys .catalog-navigation-image
 {
-	padding-left: 30px;
+    padding-left: 30px;
 }
 
 .tools .catalog-navigation-image
 {
-	padding-left: 19px;
-	padding-top: 32px;
+    padding-top: 32px;
+    padding-left: 19px;
 }
 
 .materials
@@ -540,8 +540,7 @@ h2
 
 .catalog-btn
 {
-	font-size: 14px;
-
+    font-size: 14px;
     line-height: 38px;
 
     width: 135px;
@@ -614,9 +613,9 @@ footer
     padding-left: 28px;
 }
 
-.popular-producer 
+.popular-producer
 {
-	padding-left: 25px;
+    padding-left: 25px;
 }
 
 .btn
@@ -868,10 +867,11 @@ footer
     font-family: PT Sans, Arial, sans-serif;
     font-size: 13px;
     line-height: 24px;
-    text-align: justify;
 
-    margin-bottom: 25px;
     margin-top: 14px;
+    margin-bottom: 25px;
+
+    text-align: justify;
 }
 
 .about-company
@@ -916,9 +916,9 @@ footer
     margin: 17px 0;
 }
 
-.delivery-company li:last-child 
+.delivery-company li:last-child
 {
-	margin-top: 19px;
+    margin-top: 19px;
 }
 
 .contacts
@@ -931,7 +931,7 @@ footer
 
 .contacts img
 {
-	margin-top: 5px;
+    margin-top: 5px;
     margin-bottom: 37px;
 }
 
@@ -956,7 +956,7 @@ footer
 
 .main-footer .label
 {
-    line-height: 56px;
+    line-height: 65px;
 }
 
 .main-footer li
@@ -1018,11 +1018,12 @@ footer
 {
     margin: 0;
     padding: 0;
+    padding-left: 3px;
 }
 
 .company-menu li
 {
-    margin-right: 55px;
+    margin-right: 54px;
 }
 
 .company-menu li:last-child
@@ -1052,7 +1053,8 @@ footer
     font-size: 18px;
     line-height: 24px;
 
-    margin-top: 40px;
+    margin-top: 30px;
+    margin-left: 3px;
 }
 
 .footer-menu a:hover
@@ -1103,6 +1105,7 @@ footer
     float: left;
 
     width: 170px;
+    padding-left: 10px;
 }
 
 .develop
@@ -1111,6 +1114,7 @@ footer
 
     width: 110px;
     margin-right: 10px;
+    padding-left: 10px;
 }
 
 .producer-catalog
@@ -1299,27 +1303,32 @@ footer
 
 .slider2-3 p
 {
-	margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .info-about-drill
 {
     min-height: 260px;
+    margin-top: 40px;
+    padding-top: 53px;
 
     background-color: #f2f6f8;
 }
 
 .info-about-drill h2
 {
-    padding-top: 60px;
+    margin: 0;
 }
 
 .info-about-drill p
 {
-    font-size: 13px;
+    font-size: 14px;
     line-height: 24px;
 
+    margin-top: 14px;
     padding-right: 10px;
+
+    text-align: justify;
 }
 
 .my-account
@@ -1469,6 +1478,9 @@ footer
 {
     font-size: 17px;
 
+    margin-top: 15px;
+    margin-bottom: 15px;
+
     text-transform: uppercase;
 }
 
@@ -1525,11 +1537,11 @@ footer
 
 .drills
 {
-    line-height: 90px;
+    line-height: 86px;
 
     min-height: 90px;
     margin: 0;
-    padding-left: 30px;
+    padding-left: 27px;
 
     color: #4c5a71;
     background: #f2f6f8;
@@ -1541,7 +1553,7 @@ footer
     font-size: 13px;
     line-height: 40px;
 
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 
     text-transform: uppercase;
 
@@ -1562,11 +1574,17 @@ footer
 {
     display: inline-block;
 
-    margin-right: 63px;
+    margin-right: 65px;
 
     vertical-align: middle;
 }
 
+.sorting li:nth-child(3)
+{
+    margin-right: 31px;
+}
+
+.sorting li:nth-child(4),
 .sorting li:last-child
 {
     margin-right: 0;
@@ -1594,6 +1612,8 @@ footer
 
 .sorting .triangle
 {
+    font-size: 22px;
+
     border-bottom: none;
 }
 
@@ -1635,7 +1655,7 @@ footer
     width: 220px;
     min-height: 300px;
     margin-right: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 
     text-align: center;
     vertical-align: top;
@@ -1652,6 +1672,26 @@ footer
 .item-catalog:nth-child(3n+3)
 {
     margin-right: 0;
+}
+
+.items-catalog .item-catalog .title
+{
+    line-height: 20px;
+
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+
+.items-catalog .item-catalog .discount
+{
+    margin: 0;
+}
+
+.items-catalog .item-catalog .price
+{
+    padding-top: 9px;
+    padding-bottom: 10px;
+    padding-left: 25px;
 }
 
 .new-item:before
@@ -1838,6 +1878,12 @@ footer
     border: 20px solid #fff;
     border-left-color: #ee3643;
 }
+
+.popular-items
+{
+    margin-bottom: 10px;
+}
+
 .popular-items:last-child
 {
     margin-right: 0;
@@ -1875,11 +1921,23 @@ footer
     display: inline-block;
 
     width: 38px;
-    margin-top: 53px;
-    margin-right: 5px;
+    margin-top: 40px;
+    margin-right: 6px;
     margin-bottom: 30px;
 
     vertical-align: top;
+}
+
+.page a
+{
+    font-family: PT Sans, Arial, sans-serif;
+    font-size: 13px;
+
+    padding: 10px 15px;
+
+    text-decoration: none;
+
+    color: #000;
 }
 
 .page li:last-child
@@ -1889,21 +1947,9 @@ footer
     text-transform: uppercase;
 }
 
-.page a
-{
-    font-family: PT Sans, Arial, sans-serif;
-    font-size: 14px;
-
-    padding: 10px 15px;
-
-    text-decoration: none;
-
-    color: #000;
-}
-
 .page li:last-child a
 {
-    padding: 10px 30px;
+    padding: 10px 32px;
 }
 
 .page-btn
@@ -1971,7 +2017,7 @@ footer
 
 .range-controls .bar
 {
-    width: 90%;
+    width: 87%;
     height: 2px;
 
     background: #00ca74;
@@ -2018,7 +2064,7 @@ footer
 
 .range-controls .max-toggle
 {
-    left: 170px;
+    left: 160px;
 }
 
 .price-controls
@@ -2057,9 +2103,24 @@ footer
     background-color: #f7f3ec;
 }
 
+label .max-price
+{
+    position: relative;
+}
+
+label .max-price:before
+{
+    position: absolute;
+    top: 9px;
+    left: -5px;
+
+    content: '—';
+}
+
 .producer-filter li
 {
-    margin-bottom: 21px;
+    margin-top: 18px;
+    margin-bottom: 20px;
 
     list-style: none;
 }
@@ -2144,7 +2205,7 @@ footer
 .producer-checkbox input[type=checkbox] + label:before
 {
     font-family: 'symbols-technomart';
-    font-size: 24px;
+    font-size: 26px;
 
     position: absolute;
     top: 0;
@@ -2177,7 +2238,7 @@ footer
 
 .battery-checkbox
 {
-    margin-top: 20px;
+    margin-top: 24px;
 }
 
 .battery-checkbox input[type=radio]
@@ -2394,6 +2455,8 @@ footer
 
 .hr-line
 {
+    margin-bottom: 22px;
+
     border-bottom: 1px solid #e5e5e5;
 }
 
@@ -2503,3 +2566,4 @@ footer
     top: 20px;
     right: 20px;
 }
+
